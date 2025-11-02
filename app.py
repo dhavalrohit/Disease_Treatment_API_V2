@@ -1,4 +1,3 @@
-# replace your current app.py with this file (or update accordingly)
 
 from flask import Flask, request, jsonify
 from pyngrok import ngrok
