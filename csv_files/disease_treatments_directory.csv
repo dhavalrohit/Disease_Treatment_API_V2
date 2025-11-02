@@ -1,0 +1,393 @@
+disease,text
+Fungal infection,"Skin KOH TestFungal CultureThe patient has been prescribed Fluconazole forSkin KOH Test	Fungal Culture  fungal infection, with the generic name Fluconazole, strength 150 mg, dosage one tablet, frequency once daily, for 7 days."
+Allergy,"The patient has been prescribed Chest X-Ray (if respiratory)	IgE TestCetirizine for allergy, with the generic name Cetirizine Hydrochloride, strength 10 mg, dosage one tablet, frequency once daily, for 5 days.Chest X-Ray (if respiratory)IgE Test"
+GERD,"Barium Swallow X-RayEndoscopyThe patient has been prescribed Barium Swallow X-Ray	EndoscopyPantoprazole for GERD, with the generic name Pantoprazole Sodium, strength 40 mg, dosage one tablet, frequency once daily, for 14 days."
+Chronic cholestasis,"Abdominal UltrasoundLiver Function TestThe patient has been prescribed Abdominal Ultrasound	Liver Function TestUrsodiol for chronic cholestasis, with the generic name Ursodeoxycholic acid, strength 300 mg, dosage one tablet, frequency twice daily, for 30 days."
+Drug Reaction,"The patient has been prescribed PrednisoloneNo specific radiology	Eosinophil Count for drug reaction, with the generic name Prednisolone, strength 10 mg, dosage one tablet, frequency twice daily, for 5 days.No specific radiologyEosinophil Count"
+Peptic ulcer disease,"Upper GI EndoscopyH. pylori TestThe patient has been prescribed Omeprazole for peptic ulcer disease,Upper GI Endoscopy	H. pylori Test with the generic name Omeprazole, strength 20 mg, dosage one capsule, frequency once daily, for 14 days."
+AIDS,"Chest X-RayHIV ELISA / CD4 CountThe patient has been prescribed Tenofovir for AIDS, with the generic name Tenofovir Disoproxil Fumarate, strength 300 mg, dosage one tablet, frequency once daily, for long-term use."
+Diabetes,"Ultrasound AbdomenHbA1c, Fasting Blood SugarThe patient has been prescribed Metformin for diabetesUltrasound Abdomen	HbA1c, Fasting Blood Sugar with the generic name Metformin Hydrochloride, strength 500 mg, dosage one tablet, frequency twice daily, for long-term use."
+Gastroenteritis,"Abdominal Ultrasound (if severe)Stool Routine ExaminationThe patient has been prescribed ORS and Ciprofloxacin for gastroenteritis, with the generic name Ciprofloxacin, strength 500 mg, dosage one tablet, frequency twice daily, for 3 days."
+Bronchial Asthma,"Chest X-RaySpirometryThe patient has been prescribed Salbutamol for bronchial asthma, with the generic name Salbutamol, strength 100 mcg/inhalation, dosage two puffs, frequency every 6 hours, for 5 days."
+Hypertension,"ECG, EchocardiographyLipid Profile, Serum CreatinineThe patient has been prescribed Amlodipine for hypertension, with the generic name Amlodipine Besylate, strength 5 mg, dosage one tablet, frequency once daily, for long-term use."
+Migraine,"CT/MRI BrainNo specific pathologyThe patient has been prescribed Sumatriptan for migraine, with the generic name Sumatriptan Succinate, strength 50 mg, dosage one tablet, frequency as needed, for 3 days."
+Cervical spondylosis,"X-Ray Cervical SpineNo specific pathologyThe patient has been prescribed Diclofenac for cervical spondylosis, with the generic name Diclofenac Sodium, strength 50 mg, dosage one tablet, frequency twice daily, for 7 days."
+Paralysis,"CT/MRI BrainCoagulation ProfileThe patient has been prescribed Aspirin for paralysis due to brain hemorrhage, with the generic name Acetylsalicylic Acid, strength 75 mg, dosage one tablet, frequency once daily, for long-term use."
+Jaundice,"Ultrasound AbdomenLiver Function TestThe patient has been prescribed Liv 52 for jaundice, with the generic name Herbal formulation (Himalaya), strength standard, dosage two tablets, frequency twice daily, for 14 days."
+Malaria,"Chest X-Ray (if severe)Peripheral Blood SmearThe patient has been prescribed Coartem for Malaria, with the generic name Artemether-Lumefantrine, strength 20mg/120mg, dosage one tablet, frequency twice daily, for 3 days."
+Chicken pox,"No specific radiologyVZV Antibody TestThe patient has been prescribed Acyclovir for chicken pox, with the generic name Acyclovir, strength 800 mg, dosage one tablet, frequency five times daily, for 5 days"
+Dengue,"Ultrasound AbdomenDengue NS1 Antigen, Platelet CountThe patient has been prescribed Paracetamol for dengue, with the generic name Paracetamol, strength 500 mg, dosage one tablet, frequency every 6 hours, for 5 days."
+Typhoid,"The patient has been prescribed Cefixime for typhoid, with the Abdominal UltrasoundWidal Test generic name Cefixime, strength 200 mg, dosage one tablet, frequency twice daily, for 7 days."
+Hepatitis A,"Ultrasound AbdomenLiver Function TestThe patient has been prescribed supportive therapy for hepatitis A?E, including Ursodiol and vitamins, dosage varies, frequency once or twice daily, for 14?30 days."
+Hepatitis B,"Ultrasound AbdomenHBsAg TestThe patient has been prescribed supportive therapy for hepatitis A?E, including Ursodiol and vitamins, dosage varies, frequency once or twice daily, for 14?30 days."
+Hepatitis C,"Ultrasound AbdomenAnti-HCV Antibody TestThe patient has been prescribed supportive therapy for hepatitis A?E, including Ursodiol and vitamins, dosage varies, frequency once or twice daily, for 14?30 days."
+Hepatitis D,"Ultrasound AbdomenAnti-HDV Antibody TestThe patient has been prescribed supportive therapy for hepatitis A?E, including Ursodiol and vitamins, dosage varies, frequency once or twice daily, for 14?30 days."
+Hepatitis E,"Ultrasound AbdomenAnti-HEV Antibody TestThe patient has been prescribed supportive therapy for hepatitis A?E, including Ursodiol and vitamins, dosage varies, frequency once or twice daily, for 14?30 days."
+Alcoholic hepatitis,"The patient has been prescribed Silymarin for alcoholic hepatitis, with the generic nameLiver UltrasoundLFT, GGT Silymarin, strength 140 mg, dosage one tablet, frequency twice daily, for 30 days."
+Tuberculosis,"Chest X-RaySputum AFB TestThe patient has been prescribed AKT-4 for tuberculosis, with the generic name Rifampicin + Isoniazid + Pyrazinamide + Ethambutol, strength standard, dosage one kit daily, frequency once daily, for 6 months."
+Common Cold,"No specific radiologyNasal SwabThe patient has been prescribed Levocetirizine for common cold, with the generic name Levocetirizine Dihydrochloride, strength 5 mg, dosage one tablet, frequency once daily, for 5 days."
+Pneumonia,"The patient has been prescribed Azithromycin for pneumonia, with the generic name Chest X-RayCBC, Sputum Culture Azithromycin, strength 500 mg, dosage one tablet, frequency once daily, for 3 days."
+Dimorphic hemorrhoids (piles),"ProctoscopyHemoglobin, Stool Occult BloodThe patient has been prescribed Daflon for piles, with the generic name Diosmin + Hesperidin, strength 500 mg, dosage two tablets, frequency twice daily, for 7 days."
+Heart attack,"ECG, EchocardiographyTroponin TestThe patient has been prescribed Clopidogrel for heart attack, with the generic name Clopidogrel Bisulfate, strength 75 mg, dosage one tablet, frequency once daily, for long-term use."
+Varicose veins,"Doppler UltrasoundCoagulation ProfileThe patient has been prescribed Daflon for varicose veins, with the generic name Diosmin + Hesperidin, strength 500 mg, dosage two tablets, frequency twice daily, for 30 days."
+Hypothyroidism,"Thyroid UltrasoundTSH, T3, T4The patient has been prescribed Daflon for varicose veins, with the generic name Diosmin + Hesperidin, strength 500 mg, dosage two tablets, frequency twice daily, for 30 days."
+Hyperthyroidism,"Thyroid ScanTSH, T3, T4The patient has been prescribed Carbimazole for hyperthyroidism, with the generic name Carbimazole, strength 10 mg, dosage one tablet, frequency twice daily, for 30 days."
+Hypoglycemia,"No specific radiologyBlood Glucose TestThe patient has been prescribed Glucose tablets for hypoglycemia, with the generic name Dextrose, strength 4 g/tablet, dosage one tablet, frequency as needed, for emergency use."
+Osteoarthritis,"X-Ray Knee JointSerum Uric AcidThe patient has been prescribed Aceclofenac for osteoarthritis, with the generic name Aceclofenac, strength 100 mg, dosage one tablet, frequency twice daily, for 10 days."
+Arthritis,"X-Ray JointsRheumatoid Factor, ESRThe patient has been prescribed Methotrexate for arthritis, with the generic name Methotrexate, strength 7.5 mg, dosage once weekly, frequency once weekly, for long-term use."
+(vertigo) Paroxysmal Positional Vertigo,"MRI Brain (if recurrent)Dix-Hallpike TestThe patient has been prescribed Betahistine for vertigo, with the generic name Betahistine Dihydrochloride, strength 16 mg, dosage one tablet, frequency twice daily, for 10 days."
+Acne,"No specific radiologySkin Swab, Hormone LevelsThe patient has been prescribed Doxycycline for acne, with the generic name Doxycycline Hydrochloride, strength 100 mg, dosage one tablet, frequency once daily, for 14 days."
+Urinary tract infection,"Ultrasound KUBUrine Routine & CultureThe patient has been prescribed Nitrofurantoin for UTI, with the generic name Nitrofurantoin, strength 100 mg, dosage one tablet, frequency twice daily, for 5 days."
+Psoriasis,"No specific radiologySkin BiopsyThe patient has been prescribed Methotrexate for psoriasis, with the generic name Methotrexate, strength 7.5 mg, dosage once weekly, frequency once weekly, for long-term use."
+Impetigo,"No specific radiologyBacterial Culture (Swab)The patient has been prescribed Mupirocin for impetigo, with the generic name Mupirocin, strength 2% ointment, dosage apply thin layer, frequency three times daily, for 7 days."
+High Fever,"The patient has been prescribed Paracetamol for high fever, with the generic name Chest X-Ray (if respiratory symptoms)CBC, Blood Culture Paracetamol, strength 500 mg, dosage one tablet, frequency every 6 hours, for 3 days."
+Anemia,"Abdominal Ultrasound (if chronic)CBC, Iron StudiesThe patient has been prescribed Ferrous Sulfate for anemia, with the generic name Ferrous Sulfate, strength 325 mg, dosage one tablet, frequency once daily, for 30 days."
+Appendicitis,"Abdominal Ultrasound / CTCBCThe patient has been prescribed Ceftriaxone for appendicitis (pre-surgical), with the generic name Ceftriaxone, strength 1 g injection, dosage one dose, frequency once daily, for 3 days."
+Kidney Stone,"Ultrasound KUBUrine Routine, Serum CreatinineThe patient has been prescribed Tamsulosin for kidney stone, with the generic name Tamsulosin Hydrochloride, strength 0.4 mg, dosage one tablet, frequency once daily, for 10 days."
+Gallstones,"Abdominal UltrasoundLFTThe patient has been prescribed Ursodiol for gallstones, with the generic name Ursodeoxycholic acid, strength 300 mg, dosage one tablet, frequency twice daily, for 30 days."
+Sinusitis,"CT Paranasal SinusesNasal Swab CultureThe patient has been prescribed Amoxicillin-Clavulanate for sinusitis, with the generic name Amoxicillin + Clavulanic Acid, strength 625 mg, dosage one tablet, frequency twice daily, for 7 days."
+Epilepsy,"EEG, MRI BrainElectrolyte TestThe patient has been prescribed Sodium Valproate for epilepsy, with the generic name Sodium Valproate, strength 500 mg, dosage one tablet, frequency twice daily, for long-term use."
+Depression,"Brain MRI (if organic cause suspected)Thyroid ProfileThe patient has been prescribed Sertraline for depression, with the generic name Sertraline Hydrochloride, strength 50 mg, dosage one tablet, frequency once daily, for 30 days."
+AIDS/HIV,"None / Ultrasound (if organ enlargement suspected) Peripheral Blood Smear, Rapid Antigen Test (RDT)"
+Diabetes mellitus,"Abdominal Ultrasound (sometimes) Blood Culture (gold standard), Widal Test, Typhidot Metformin 500mg Once or twice daily Long-term Oral Monitor blood glucose and kidney function"
+Chronic Kidney Disease,"Chest X-Ray (for opportunistic infections) HIV ELISA/4th gen, CD4 count, Viral Load Erythropoietin 4000 IU Once weekly Long-term Subcutaneous Also add ACE inhibitor for BP control "
+Acute Appendicitis,"Chest X-Ray, HRCT Chest (if needed) Sputum AFB smear, GeneXpert (CBNAAT), TB culture Ceftriaxone 1g + Metronidazole 500mg Every 12 hours Pre- and post-surgery IV Preoperative antibiotic prophylaxis "
+Cholelithiasis (gallstones),"Upper GI Endoscopy H. pylori testing (Urea breath test, Stool antigen, Biopsy) Ursodeoxycholic acid 300mg Once daily 6�12 months Oral Helps dissolve cholesterol stones "
+Pancreatitis,"Chest X-Ray, Chest CT if severe Sputum Gram stain & Culture, Blood culture, Procalcitonin Analgesics (Tramadol 50mg) Every 8 hours As needed IV or Oral Supportive therapy; IV fluids essential "
+Ischemic Stroke,"Fundus Photography (retinopathy screening) HbA1c, Fasting Blood Sugar, Oral Glucose Tolerance Test Aspirin 150mg Once daily Long-term Oral Add Atorvastatin 40mg for secondary prevention "
+Myocardial Infarction (MI),"Echocardiography (when indicated) Basic Metabolic Panel, Lipid Profile, Kidney Function Tests Aspirin 150mg + Clopidogrel 75mg Once daily Long-term Oral Add Atorvastatin and Beta-blocker "
+Asthma,"Ultrasound Abdomen/Kidneys Serum Creatinine, eGFR, Urine Analysis (ACR) Salbutamol 100mcg 2 puffs as needed As needed Inhalation Rescue inhaler for bronchospasm "
+COPD,"Ultrasound Abdomen (plasma leak in severe cases) Dengue NS1 antigen, IgM/IgG serology, Platelet count Tiotropium 18mcg capsule Once daily Long-term Inhalation Maintenance bronchodilator "
+Allergic Rhinitis,Ultrasound Abdomen (liver size/other causes) HAV IgM Loratadine 10mg Once daily As needed Oral Non-sedating antihistamine
+Otitis Media,"Ultrasound Abdomen (liver assessment), FibroScan HBsAg, HBV DNA, LFTs Amoxicillin 500mg Every 8 hours 7 days Oral First-line antibiotic "
+Conjunctivitis,"Ultrasound Abdomen, FibroScan HCV antibody, HCV RNA (PCR), LFTs Ciprofloxacin 0.3% drops 1�2 drops every 4 hours 5�7 days Ophthalmic Antibacterial eye drops "
+Rheumatoid Arthritis,"Ultrasound Kidney/Bladder (recurrent/complicated) Urine Routine, Urine Culture & Sensitivity Methotrexate 15mg Once weekly Long-term Oral or Subcutaneous Folic acid supplement needed "
+Gout,"Abdominal Ultrasound (CT abdomen if unclear) CBC (elevated WBC), CRP Allopurinol 100mg Once daily Long-term Oral Start after acute attack subsides "
+Celiac Disease,"Ultrasound Abdomen (RUQ) Liver Function Tests, Amylase/Lipase if pancreatitis suspected Gluten-free diet   Lifelong Dietary No pharmacologic treatment"
+Irritable Bowel Syndrome (IBS),"Abdominal Ultrasound, CT Abdomen (severity) Serum Amylase, Lipase, LFTs Dicyclomine 20mg Three times daily As needed Oral Antispasmodic for cramping "
+Inflammatory Bowel Disease (Crohn's/UC),"CT Head (non-contrast), MRI Brain (diffusion) Blood glucose, CBC, Electrolytes, Coagulation profile Mesalamine 800mg Three times daily Long-term Oral or Rectal For mild to moderate UC "
+Endocarditis,"ECG, Echocardiography Troponin I/T, CK-MB, Lipid profile Vancomycin 1g + Gentamicin 1mg/kg Every 12 hours 4�6 weeks IV Adjust per culture results "
+Sepsis,"Chest X-Ray (to rule out complications) Spirometry, Peak flow, Allergy tests if needed Piperacillin-Tazobactam 4.5g Every 6 hours 7�14 days IV Broad-spectrum empiric therapy "
+Meningitis,"Chest X-Ray, CT Chest (if emphysema/complications) Spirometry (post-bronchodilator), Alpha-1 antitrypsin if young Ceftriaxone 2g + Dexamethasone 10mg Every 12 hours 7�14 days IV Empiric bacterial meningitis coverage "
+Encephalitis,"Sinus X-Ray or CT if chronic/sinusitis suspected Allergy skin testing, Specific IgE Acyclovir 10mg/kg Every 8 hours 14�21 days IV For suspected HSV encephalitis "
+Bacterial Skin Infection / Cellulitis,Tympanometry (ENT exam) None routine; culture if discharge (ear swab) Flucloxacillin 500mg Every 6 hours 7�10 days Oral If severe�switch to IV
+HSV Infection (herpes simplex),None usually Conjunctival swab culture (if bacterial suspicion) Acyclovir 400mg Three times daily 7�10 days Oral Topical cream can also be used
+COVID-19,Sinus X-Ray or CT Sinuses (chronic/complicated) Nasal swab/culture if chronic Remdesivir 200mg (day 1) Once daily 5 days IV Add Dexamethasone 6mg daily if severe
+Influenza,X-Ray of affected joint No specific lab test; ESR/CRP to rule out inflammatory causes Oseltamivir 75mg Every 12 hours 5 days Oral Start within 48 hours of symptom onset
+Bronchiectasis,"X-Ray, Ultrasound/MRI of joints RF, Anti-CCP (ACPA), ESR, CRP Azithromycin 250mg Once daily 3�6 months Oral Long-term prophylaxis in chronic cases "
+Pulmonary Embolism,"X-Ray (chronic), Ultrasound (double contour sign) Serum uric acid, Synovial fluid analysis (MSU crystals) Heparin 5000 IU Every 12 hours 5�7 days (then Warfarin) IV/Subcutaneous Bridge to oral anticoagulant "
+Deep Vein Thrombosis (DVT),"Neck Ultrasound if nodules suspected TSH, Free T4, Anti-TPO antibodies Enoxaparin 1mg/kg Every 12 hours 5�10 days Subcutaneous Then switch to Apixaban or Warfarin "
+Pregnancy (routine antenatal),"Thyroid uptake scan (nuclear), Ultrasound TSH, Free T4/T3, TSH receptor antibodies Folic Acid 5mg Once daily Throughout pregnancy Oral Also add Iron 100mg/day "
+Pre-eclampsia,"None routine (endoscopy if needed) tTG-IgA, Total IgA, Duodenal biopsy (gold standard) Labetalol 100mg Every 8 hours Until delivery Oral Add Magnesium sulfate for seizure prevention "
+Ectopic Pregnancy,"Abdominal imaging only if alarm features Basic labs to exclude other causes (CBC, CRP) Methotrexate 50mg/m� Single dose One-time IM Monitor ?-hCG levels "
+Osteoporosis,"CT/MR Enterography, Colonoscopy Fecal calprotectin, CBC, CRP, Stool studies Alendronate 70mg Once weekly Long-term Oral Take on empty stomach with water "
+Vitamin D Deficiency,"Echocardiography (TTE/TEE) Blood cultures (multiple sets), CBC, ESR/CRP Cholecalciferol 60 000 IU Once weekly 6�8 weeks Oral Then maintenance monthly"
+Vitamin B12 Deficiency,"Appropriate imaging per source (X-Ray/US/CT) Blood cultures, CBC, Lactate, Procalcitonin Cyanocobalamin 1000mcg Once daily (1 week) then monthly Maintenance IM or Oral Depends on cause "
+Alcoholic Liver Disease,"CT Head (before LP if indicated) CSF analysis (cell count, glucose, protein), CSF culture, PCR panels Thiamine 100mg Once daily Long-term Oral Abstinence from alcohol is essential "
+Nonalcoholic Fatty Liver Disease (NAFLD),"MRI Brain CSF analysis, PCR for HSV/VZV, Autoimmune panels as indicated Pioglitazone 15mg Once daily Long-term Oral Plus weight loss & exercise "
+Cirrhosis,Ultrasound if abscess suspected Wound swab culture if purulent Spironolactone 100mg + Furosemide 40mg Once daily Long-term Oral Monitor potassium levels
+Kidney Stones (Urolithiasis),"None usually PCR from lesion, Viral culture, Serology (limited) Tamsulosin 0.4mg Once daily Up to 4 weeks Oral Alpha blocker for stone passage "
+Polycystic Ovary Syndrome (PCOS),"Chest X-Ray, Chest CT for severe disease SARS-CoV-2 PCR (nasopharyngeal), Rapid antigen tests Metformin 500mg Once or twice daily Long-term Oral Add combined oral contraceptive if needed "
+Endometriosis,Chest X-Ray if lower respiratory involvement Influenza PCR or Rapid antigen test Leuprolide 3.75mg Once monthly 3�6 months IM GnRH agonist therapy
+Infertility (female),"High-resolution CT Chest (HRCT) Sputum culture (including mycobacteria), AFB if TB suspected Clomiphene citrate 50mg Once daily (Day 2�6 cycle) 5 days Oral Induces ovulation "
+Prostate Cancer,"CT Pulmonary Angiography (CTPA), V/Q scan D-dimer, ABG, Leg Doppler for DVT Leuprolide 3.75mg Once monthly Long-term IM Androgen deprivation therapy "
+Breast Cancer,"Venous Doppler Ultrasound (lower limb) D-dimer, Coagulation profile Tamoxifen 20mg Once daily 5 years Oral For ER-positive breast cancer "
+Lung Cancer,"Obstetric Ultrasound (dating/anomaly) Blood group & Rh, CBC, RPR/VDRL, Hepatitis B/C, HIV, Urine routine Cisplatin 75mg/m� + Pemetrexed 500mg/m� Every 3 weeks Varies IV Platinum-based regimen "
+Colon Cancer,"Obstetric Ultrasound (growth scan) Urine protein:creatinine ratio, LFTs, Platelet count, Serum creatinine 5-Fluorouracil 400mg/m� + Oxaliplatin 85mg/m� Every 2 weeks 6 months IV FOLFOX regimen "
+Cervical Cancer,Transvaginal Ultrasound Serial beta-hCG Cisplatin 40mg/m� Once weekly 6 weeks IV Concurrent with radiation
+Leukemia,"DEXA Scan (Bone mineral density) Serum Calcium, Vitamin D, PTH Imatinib 400mg Once daily Long-term Oral For CML (BCR-ABL positive) "
+Lymphoma,"None routine imaging 25-hydroxy Vitamin D level, Calcium, Phosphate CHOP regimen (Cyclophosphamide + Doxorubicin + Vincristine + Prednisone) Cycle every 21 days 6�8 cycles IV Standard first-line for DLBCL "
+Parkinson's Disease,"MRI brain/spine if neurological signs Serum B12, Methylmalonic acid, CBC Levodopa + Carbidopa 100/25mg Three times daily Long-term Oral Mainstay therapy for motor symptoms "
+Alzheimer's Disease,"Ultrasound Abdomen, FibroScan LFTs, GGT, CDT, Viral hepatitis serology to exclude others Donepezil 10mg Once daily Long-term Oral Cholinesterase inhibitor; improves cognition "
+Bipolar Disorder,"Ultrasound Abdomen, FibroScan LFTs, Lipid profile, HbA1c Lithium 300mg Two to three times daily Long-term Oral Monitor renal and thyroid function "
+Schizophrenia,"Ultrasound Abdomen, CT/MRI Liver LFTs, INR, Platelet count, Ascitic fluid analysis if present Risperidone 2�4mg Once daily Long-term Oral Atypical antipsychotic; monitor metabolic side effects "
+Anemia - Iron deficiency,"Non-contrast CT KUB, Ultrasound (pregnancy) Urine Analysis, Stone analysis, Serum calcium/uric acid Ferrous sulfate 325mg Three times daily 3 months Oral Take with vitamin C for better absorption "
+Sickle Cell Disease,"Pelvic Ultrasound (ovarian morphology) Serum LH/FSH, Testosterone, HbA1c, Lipid profile Hydroxyurea 500mg Once daily Long-term Oral Increases fetal hemoglobin; reduces crises "
+Thalassemia,"Transvaginal Ultrasound, MRI pelvis (selected cases) Laparoscopy (visualization & biopsy) Folic acid 5mg Once daily Long-term Oral Regular transfusions may be required "
+Skin Psoriasis,"Hysterosalpingography (HSG), Pelvic US Hormonal panel (FSH, LH, AMH, Prolactin), Semen analysis for partner Methotrexate 15mg Once weekly Long-term Oral or IM Monitor liver function "
+Eczema / Dermatitis,"Multiparametric MRI Prostate PSA, Transrectal biopsy (histopathology) Hydrocortisone 1% cream Apply twice daily 7�14 days Topical Relieves itching and inflammation "
+Cellulitis/Abscess,"Mammography, Breast Ultrasound, MRI if indicated Core needle biopsy, ER/PR/HER2 testing Amoxicillin-Clavulanate 875/125mg Every 12 hours 7�10 days Oral or IV Add drainage if abscess present "
+Viral Hepatitis E,"CT Chest, PET-CT for staging Sputum cytology (limited), Biopsy (bronchoscopic or CT-guided) Supportive therapy  As needed Symptomatic Rest and hydration; no antiviral needed "
+Syphilis,"CT Colonography, Colonoscopy Colonoscopy biopsy, CEA tumor marker Benzathine Penicillin G 2.4 million units Single dose One-time IM For early syphilis; weekly �3 for late "
+HPV infection,"Pelvic Ultrasound, MRI pelvis for staging Pap smear (screening), HPV testing, Biopsy Imiquimod 5% cream Apply three times weekly Up to 16 weeks Topical For external genital warts "
+COVID-19 Long COVID follow-up,"None specific imaging except organomegaly (US/CT) CBC with peripheral smear, Bone marrow aspiration & biopsy, Flow cytometry Remdesivir + Dexamethasone 200mg day 1 then 100mg daily 5�10 days IV Supportive oxygen as needed "
+Acute Rheumatic Fever,"CT Neck/Chest/Abdomen/Pelvis, PET-CT Excisional lymph node biopsy, Immunohistochemistry, Flow cytometry Multivitamins + Physiotherapy  Long-term Supportive Symptom management only "
+Pericarditis,MRI Brain (to exclude other causes) Mostly clinical; DaTscan (SPECT) in select cases Benzathine Penicillin G 1.2 million units Every 3 weeks Long-term prophylaxis IM Add Aspirin for joint pain
+Endocrine - Cushing's Syndrome,MRI Brain Cognitive testing; CSF biomarkers (amyloid/tau) in specialized settings Ibuprofen 400mg Every 8 hours 1�2 weeks Oral Add Colchicine 0.5mg daily
+Endocrine - Addison's Disease,"MRI Brain (epilepsy protocol) EEG, Metabolic workup as needed Ketoconazole 200mg Two times daily Variable Oral Used to suppress cortisol "
+Severe Allergic Reaction / Anaphylaxis,None usually No specific pathology tests; neuroimaging only for red flags Hydrocortisone 20mg AM + 10mg PM Daily Long-term Oral Add fludrocortisone 0.1mg if needed
+Antiphospholipid Syndrome,None routine imaging Clinical assessment; thyroid function and CBC to rule out organic causes Epinephrine 0.3mg Repeat every 5�15 min if needed Acute IM Use autoinjector (EpiPen)
+Liver Cirrhosis,None routine imaging Clinical assessment; labs to exclude secondary causes Warfarin 5mg Once daily Long-term Oral Maintain INR 2�3
+Stroke,None routine imaging Clinical assessment; occasional imaging if atypical features Spironolactone + Furosemide 100/40mg Once daily Long-term Oral Monitor electrolytes
+Brain Tumor,"None routine imaging CBC, Serum ferritin, Iron studies Aspirin 150mg Once daily Long-term Oral Secondary prevention with Atorvastatin "
+Multiple Sclerosis,"X-Rays for bone infarcts, Transcranial Doppler (pediatric stroke risk) Hemoglobin electrophoresis, CBC Dexamethasone 4mg Every 6 hours Variable Oral/IV Reduce edema pre-surgery "
+Gallbladder Cancer,"X-Ray (bone changes), Ultrasound Abdomen (splenomegaly) Hemoglobin electrophoresis, CBC Interferon beta-1a 44mcg Three times weekly Long-term Subcutaneous Immunomodulatory therapy "
+Ovarian Cyst,None routine imaging Mostly clinical; biopsy if diagnostic uncertainty Gemcitabine + Cisplatin 1000mg/m� + 25mg/m� Every 3 weeks 6 cycles IV Standard chemotherapy
+Polycystic Ovary Syndrome,None Mostly clinical; patch testing for contact dermatitis Combined oral contraceptive  Daily 3�6 months Oral Regulates menstrual cycle
+Thyroid Disorder,Ultrasound to detect abscess Wound swab culture if purulent Metformin + Oral contraceptive 500mg BID Long-term Oral Improves insulin resistance
+Gastritis,"Ultrasound Abdomen HEV IgM, HEV RNA (PCR) Levothyroxine 50�100mcg Once daily Lifelong Oral Adjust dose per TSH levels "
+Fatty Liver,"None routine imaging VDRL/RPR, TPPA/FTA-ABS confirmatory Omeprazole 20mg Once daily 4�8 weeks Oral PPI therapy for symptom relief "
+Kidney Stones,"None routine imaging HPV DNA testing (cervical samples), Pap smear Pioglitazone + Vitamin E 15mg daily Long-term Oral Lifestyle modification essential "
+Peptic ulcer diseae,High-resolution CT Chest (if persistent breathlessness) SARS-CoV-2 PCR or serology (historical) Tamsulosin 0.4mg + Pain relief Once daily Up to 4 weeks Oral Hydration encouraged
+Paralysis (brain hemorrhage),"Echocardiography ASO titer, ESR/CRP, Throat culture Omeprazole + Amoxicillin + Clarithromycin 20mg/1g/500mg 14 days Oral H. pylori eradication triple therapy "
+Dimorphic hemmorhoids(piles),"ECG, Echocardiography ESR/CRP, Cardiac enzymes if myocardial involvement Mannitol + Amlodipine Varies Hospital course IV/Oral Supportive neurocritical management "
+Osteoarthristis,"MRI Pituitary/CT abdomen (adrenal) 24-hour urinary cortisol, Low-dose dexamethasone suppression test Diosmin + Hydrocortisone cream 500mg BID 1�2 weeks Oral/Topical Sitz baths and diet control "
+(vertigo) Paroymsal  Positional Vertigo,"CT Abdomen (adrenal atrophy/enlargement) AM Cortisol, ACTH stimulation test Paracetamol 500mg + Diclofenac 50mg Every 8 hours As needed Oral Add physiotherapy "
+Herpes Simplex (HSV Infection),"None routine imaging Tryptase (post-event), Allergy testing later Betahistine 16mg Three times daily 2�4 weeks Oral Vestibular exercises helpful "
+Viral Myocarditis,"Doppler ultrasound for thrombosis Lupus anticoagulant, Anti-cardiolipin, Beta-2 glycoprotein I Acyclovir 400mg Three times daily 7�10 days Oral/Topical For recurrent lesions "
+Lou Gehrig's Disease (ALS),Chest X-Ray Sputum Culture Supportive + ACE inhibitors  As needed Oral/IV No specific antiviral
+Heart Attack (Myocardial Infarction),Chest CT Scan AFB Smear Test Riluzole 50mg Every 12 hours Long-term Oral Slows progression
+Gallstones (Cholelithiasis),Abdominal Ultrasound HbA1c Aspirin + Clopidogrel + Atorvastatin 150mg/75mg/40mg Once daily Long-term Oral Add Beta-blocker
+Sjogren's Syndrome,Echocardiogram Serum Creatinine Pilocarpine 5mg Three times daily Long-term Oral Stimulates saliva production
+Scleroderma,Renal Ultrasound Urine Albumin Methotrexate 10mg Once weekly Long-term Oral/SC Symptom control only
+Vasculitis,Liver Ultrasound Liver Function Test Prednisolone 40mg Once daily Variable Oral Taper gradually
+Male Infertility,Abdominal Ultrasound Bilirubin Test Clomiphene citrate 25mg Once daily 3 months Oral Improves testosterone and sperm count
+Viral Skin Infections,Abdominal CT Scan Serum Amylase Acyclovir cream 5% Apply 5 times daily 7 days Topical For HSV or varicella lesions
+Hepatic Cirrhosis,Chest X-Ray IgE Test Spironolactone + Furosemide 100/40mg Once daily Long-term Oral Monitor liver and renal function
+Autoimmune Hepatitis,Spirometry Arterial Blood Gas Prednisolone 40mg + Azathioprine 50mg Once daily Long-term Oral Gradual tapering
+Vascular Dementia,No Radiology Complete Blood Count Donepezil 10mg Once daily Long-term Oral Cognitive enhancer
+Anxiety Disorders,PET-CT Peripheral Blood Smear Alprazolam 0.25mg As needed Short-term Oral Caution with dependency
+PTSD,CT Neck/Chest Lymph Node Biopsy Sertraline 50mg Once daily Long-term Oral SSRI first-line therapy
+OCD,Brain MRI Coagulation Profile Fluoxetine 20mg Once daily Long-term Oral High-dose SSRI often needed
+ADHD,Brain MRI Thyroid Function Test Methylphenidate 10mg Once or twice daily Long-term Oral Monitor growth in children
+Autism Spectrum Disorder,MRI Brain with Contrast CSF Cytology Risperidone 0.5mg Once daily Long-term Oral For irritability or aggression
+Sleep Disorders,CT PNS Nasal Swab Culture Zolpidem 5�10mg At bedtime Short-term Oral Avoid long-term use
+Obstructive Sleep Apnea,MRI Brain CSF Analysis CPAP + Modafinil 100mg Once daily Long-term Device/Oral Weight loss advised
+Restless Legs Syndrome,EEG + MRI Brain Electrolyte Panel Pramipexole 0.25mg At bedtime Long-term Oral Dopamine agonist
+Chronic Fatigue Syndrome,MRI Brain + Spine CSF Oligoclonal Bands Modafinil 100mg Once daily Long-term Oral Supportive therapy
+Fibromyalgia,Abdominal CT WBC Count Amitriptyline 25mg At bedtime Long-term Oral Improves sleep and pain
+Chronic Pain Syndromes,Abdominal CT CA 19-9 Gabapentin 300mg Three times daily Long-term Oral Neuropathic pain control
+Obesity,Mammography Biopsy Histopathology Orlistat 120mg Three times daily Long-term Oral Take with meals
+Malnutrition,Chest CT Sputum Cytology Multivitamin + Protein supplements As directed Long-term Oral or NG Supportive nutrition
+Dehydration,CT Abdomen CEA Test ORS solution 200�400ml After each stool As needed Oral or IV Depends on severity
+Electrolyte Imbalances,Pelvic MRI PSA Test Normal saline / Potassium chloride Varies Until corrected IV/Oral Based on lab results
+Severe Burns,Pelvic MRI Pap Smear Silver sulfadiazine 1% cream Apply twice daily Until healed Topical Broad antimicrobial coverage
+Trauma and Fractures,Pelvic Ultrasound CA-125 Analgesics (Paracetamol + Diclofenac) As needed Short-term Oral Immobilization required
+Osteomyelitis,Pelvic MRI Hormone Profile Ceftriaxone 2g + Clindamycin 600mg Every 12 hours 4�6 weeks IV Adjust based on culture
+Septicemia,"Pelvic Ultrasound LH, FSH, Testosterone Meropenem 1g + Vancomycin 1g Every 8 hours 10�14 days IV Broad-spectrum combination "
+ARDS,"Neck Ultrasound TSH, T3, T4 Supportive (Oxygen + Steroids)  Variable IV/Inhalation No specific drug; ventilation required "
+Chronic Sinusitis,Thyroid Scan Thyroid Antibody Test Amoxicillin-Clavulanate 875/125 mg Every 12 hours 10�14 days Oral Add nasal saline irrigation
+Corneal Ulcers,Neck Ultrasound TSH Test Ciprofloxacin 0.3 % drops 1 drop every hour 7�10 days Ophthalmic Avoid contact lenses
+Retinal Detachment,Abdominal Ultrasound H. pylori Antibody Test No drug � surgical repair    Referral to ophthalmic surgeon
+Glaucoma,Upper GI Endoscopy Stool Occult Blood Test Latanoprost 0.005 % drops 1 drop nightly Long-term Ophthalmic Monitor intraocular pressure
+Cataracts,Liver Ultrasound HBsAg Test No specific medication    Surgical management only
+Macular Degeneration,Liver Fibroscan Anti-HCV Antibody Test Vitamin C 500 mg + Lutein  Long-term Oral Nutritional support
+Diabetic Retinopathy,Abdominal Ultrasound Prothrombin Time Insulin + Laser photocoagulation As prescribed Long-term Subcutaneous/Procedure Glycemic control critical
+Hearing Loss,Liver Ultrasound LFT Prednisolone 60 mg Once daily 7�14 days Oral/IV Early treatment improves outcome
+Vertigo,KUB Ultrasound Urine Routine Betahistine 16 mg Three times daily 2�4 weeks Oral Vestibular exercises helpful
+Multiple System Atrophy,Skin examination (Dermatoscopy) Bacterial culture (Staphylococcus aureus) Midodrine 5 mg Three times daily Long-term Oral Symptomatic treatment
+Myasthenia Gravis,"Skin biopsy (if severe) ANA, ESR, CRP Pyridostigmine 60 mg Every 6 hours Long-term Oral Add Prednisone if severe "
+Guillain-Barr� Syndrome,"No imaging Bacterial culture (Streptococcus, Staphylococcus) IV Immunoglobulin 0.4 g/kg/day Daily 5 days IV Plasmapheresis alternative "
+Poliomyelitis,"Chest X-ray (if infection suspected) CBC, Blood culture Supportive care + Vaccination   Supportive No antiviral available "
+Leprosy,"No imaging HSV IgM/IgG, PCR Rifampicin + Dapsone + Clofazimine Monthly / Daily 6�12 months Oral WHO MDT regimen "
+Lyme Disease,"Cardiac MRI Troponin, CRP, Viral PCR Doxycycline 100 mg Every 12 hours 14�21 days Oral Alternative � Ceftriaxone IV "
+Q Fever,"MRI Brain/Spine EMG, Nerve Conduction Test Doxycycline 100 mg Every 12 hours 14 days Oral For Coxiella burnetii infection "
+Brucellosis,"Coronary Angiography Troponin I/T, CK-MB Doxycycline 100 mg + Rifampicin 600 mg Daily 6 weeks Oral Combination therapy "
+Leptospirosis,Abdominal Ultrasound Liver Function Test Doxycycline 100 mg Every 12 hours 7 days Oral Add IV penicillin if severe
+Rabies,"Salivary gland ultrasound ANA, Anti-Ro (SSA), Anti-La (SSB) Rabies vaccine + Immunoglobulin As per schedule Post-exposure IM Wound cleaning essential "
+Anthrax,"HRCT Chest ANA, Anti-Scl70 Ciprofloxacin 500 mg Every 12 hours 60 days Oral/Post-exposure prophylaxis  "
+Botulism,"CT Angiography ESR, CRP, ANCA Antitoxin + Supportive care  Single dose IV/Supportive Respiratory support as needed "
+Chagas Disease,"Scrotal Ultrasound Semen Analysis, Hormone Profile Benznidazole 5 mg/kg/day Two divided doses 60 days Oral Antiparasitic for T. cruzi "
+Filariasis,No imaging PCR / Viral Culture Diethylcarbamazine 6 mg/kg Once daily 12 days Oral Repeat annually
+Schistosomiasis,"Liver Fibroscan / Ultrasound LFT, PT/INR, Serum Albumin Praziquantel 40 mg/kg Single dose One-time Oral Repeat in 6 months if needed "
+Onchocerciasis,"Liver Ultrasound ANA, Anti-SMA, LKM Antibodies Ivermectin 150 �g/kg Single dose Every 6�12 months Oral Mass drug administration programs "
+Paget's Disease of Bone,"MRI Brain Lipid Profile, Blood Sugar Alendronate 40 mg Once daily 6 months Oral Bisphosphonate therapy "
+Ankylosing Spondylitis,"MRI Brain (to rule out causes) Thyroid Profile, Cortisol Indomethacin 50 mg Two times daily Long-term Oral Add TNF-? inhibitor if severe "
+Systemic Lupus Erythematosus (SLE),"MRI Brain (fMRI research) Cortisol, Catecholamines Hydroxychloroquine 200 mg Once daily Long-term Oral Add Prednisolone for flares "
+Crohn's Disease,"MRI Brain (optional) Serotonin level, Thyroid Profile Mesalamine 800 mg + Prednisolone 40 mg As prescribed Variable Oral/Rectal Immunosuppressants for maintenance "
+Ulcerative Colitis,"MRI Brain (optional) Thyroid, Vitamin D, Iron profile Mesalamine 800 mg Three times daily Long-term Oral or Rectal For mild to moderate cases "
+Diverticulitis,"MRI Brain Genetic Testing, Metabolic Screen Ciprofloxacin 500 mg + Metronidazole 500 mg Every 12 hours 7�10 days Oral High-fiber diet after recovery "
+Mesenteric Ischemia,"Polysomnography Thyroid, Glucose, Ferritin Heparin 5000 IU Every 8 hours Acute IV Immediate revascularization if needed "
+Small Bowel Obstruction,Sleep Study / Cephalometric X-ray Thyroid Function Test IV fluids + Nasogastric decompression  Supportive Hospital Usually surgical management
+Acute Bronchiolitis,"Spine MRI (if needed) Serum Ferritin, B12 Salbutamol inhalation + Supportive As needed 5�7 days Inhalation Usually viral (RSV) "
+Pertussis (Whooping Cough),"MRI Brain Thyroid, Cortisol, CBC Azithromycin 500 mg Once daily 5 days Oral For patient and contacts "
+Respiratory Syncytial Virus (RSV) Infection,"No imaging (clinical diagnosis) ESR, CRP, ANA Ribavirin (if severe) 20 mg/mL nebulized Variable Inhalation Supportive care preferred "
+Epiglottitis,MRI Affected Area Inflammatory Markers Ceftriaxone 2 g + Dexamethasone 10 mg Every 12 hours 7 days IV Airway protection first
+Kawasaki Disease,"Abdominal Ultrasound Lipid Profile, Blood Sugar, Thyroid IV Immunoglobulin 2 g/kg + Aspirin 80 mg/kg/day As prescribed High-dose 5 days then low-dose IV/Oral Monitor for aneurysm "
+Rheumatic Fever,"No imaging Albumin, Vitamin Profile Benzathine Penicillin G 1.2 million units Every 3 weeks Long-term prophylaxis IM Add Aspirin for arthritis "
+Infective Endocarditis,"No imaging Serum Electrolytes, BUN/Creatinine Vancomycin + Gentamicin Per weight 4�6 weeks IV Adjust to culture results "
+Dilated Cardiomyopathy,ECG Serum Electrolyte Panel Carvedilol 25 mg + Enalapril 5 mg As prescribed Long-term Oral Add Diuretics if fluid overload
+Hypertrophic Cardiomyopathy,"Chest X-ray (if inhalation injury) CBC, Electrolytes, Renal Function Verapamil 120 mg Three times daily Long-term Oral Beta-blockers alternative "
+Aortic Dissection,"X-ray / CT Scan CBC, Blood Grouping Labetalol 20 mg bolus Then continuous infusion Acute IV Emergency surgery often required "
+Peripheral Arterial Disease,"MRI Affected Bone ESR, CRP, Blood Culture Aspirin 75 mg Once daily Long-term Oral Add Cilostazol if needed "
+Buerger's Disease (Thromboangiitis Obliterans),"Chest X-ray (to find source) Blood Culture, CBC Smoking cessation + Aspirin 75 mg Once daily Long-term Oral Absolute smoking cessation "
+Cellulitis,"Chest X-ray / CT Thorax ABG, Blood Culture Flucloxacillin 500 mg Every 6 hours 7�10 days Oral/IV For Staph/Strep infections "
+Erysipelas,CT PNS Nasal Swab Culture Penicillin V 500 mg Every 6 hours 7�10 days Oral Alternative � Erythromycin
+Tonsillitis,Slit Lamp Exam Corneal Scraping Culture Amoxicillin 500 mg Every 8 hours 7�10 days Oral Add Paracetamol for pain
+Pharyngitis,"Fundus Photography, OCT No pathology test Penicillin V 500 mg Every 6 hours 10 days Oral Alternative � Azithromycin "
+Chronic Otitis Media,"Visual Field Test, OCT No pathology test Ofloxacin 0.3 % drops 5 drops twice daily 10�14 days Otic Avoid water entry "
+Mastoiditis,Slit Lamp Examination Blood Sugar Test (if diabetic) Ceftriaxone 2 g Every 12 hours 10�14 days IV ENT referral for surgery
+Temporomandibular Joint Disorder (TMJ),Fundus Fluorescein Angiography Genetic Testing (optional) Ibuprofen 400 mg Every 8 hours As needed Oral Add Muscle relaxants if severe
+Carpal Tunnel Syndrome,"Fundus Photography HbA1c, FBS Naproxen 250 mg Every 12 hours As needed Oral Wrist splint advised "
+Rotator Cuff Tear,"Audiometry, Temporal Bone CT Thyroid and Autoimmune Profile NSAIDs + Physiotherapy As needed Variable Oral/Therapy Surgical repair if severe "
+Anterior Cruciate Ligament (ACL) Tear,"MRI Brain / Inner Ear Electrolyte, B12 Analgesics + Physiotherapy As needed Variable Oral Possible arthroscopic surgery "
+Meniscal Tear,MRI Brain Alpha-synuclein Antibody Test NSAIDs + Rest As needed Variable Oral Surgical repair for persistent locking
+Scoliosis,CT Chest (Thymus) Anti-AChR Antibody No drug therapy    Orthopedic bracing or surgery
+Bell's Palsy,"MRI Spine CSF Protein, Nerve Conduction Prednisolone 60 mg Once daily 7�10 days Oral Add Acyclovir if HSV suspected "
+Trigeminal Neuralgia,MRI Spine Stool Viral Culture Carbamazepine 200 mg Two times daily Long-term Oral Monitor liver enzymes
+Spinal Cord Injury,Nerve Ultrasound Skin Smear for AFB Methylprednisolone 30 mg/kg bolus Single dose Acute IV Supportive rehabilitation
+Chiari Malformation,"MRI Brain (if neurological) ELISA for Borrelia, Western Blot No specific drug    Surgical decompression required "
+Hydrocephalus,Chest X-ray Coxiella burnetii Antibody Test Acetazolamide 250 mg Three times daily Until surgery Oral CSF shunt placement definitive
+Intracranial Hemorrhage,Spine X-ray / Ultrasound Brucella Agglutination Test Mannitol 20 % 1 g/kg bolus Repeat as needed IV Control BP and ICP
+Subarachnoid Hemorrhage,Abdominal Ultrasound Leptospira IgM ELISA Nimodipine 60 mg Every 4 hours 21 days Oral Prevents vasospasm
+Transient Ischemic Attack (TIA),MRI Brain (postmortem diagnosis) Rabies Antigen (PCR/IFA) Aspirin 75 mg + Atorvastatin 40 mg Once daily Long-term Oral Control risk factors
+Cerebral Aneurysm,"Chest X-ray Blood Culture, PCR for Bacillus anthracis Nimodipine 60 mg Every 4 hours 21 days Oral Post-clipping vasospasm prevention "
+Nephrotic Syndrome,"No imaging Toxin Assay, PCR Prednisolone 60 mg/m� Once daily 6�8 weeks Oral Add ACE inhibitor for proteinuria "
+Acute Tubular Necrosis (ATN),Echocardiography Trypanosoma cruzi Antibody Test Supportive care + Fluids  Variable Hospital Discontinue nephrotoxic drugs
+Acute Pyelonephritis,Doppler Ultrasound (Lymphatic) Blood Smear (Microfilaria) Ceftriaxone 1 g Every 12 hours 10�14 days IV/Oral Hydration essential
+Hydronephrosis,"Abdominal Ultrasound Stool/Ova Test, Serology Analgesics + Surgical relief  As needed Depends on cause Urological intervention needed "
+Autosomal Dominant Polycystic Kidney Disease (ADPKD),Ophthalmoscopy Skin Snip Microscopy ACE inhibitors + Tolvaptan As prescribed Long-term Oral Monitor renal function
+Renal Cell Carcinoma,"X-ray / Bone scan Alkaline phosphatase, Bone turnover markers Sunitinib 50 mg Once daily 4 weeks on / 2 weeks off Oral Targeted therapy "
+Bladder Cancer,"X-ray Sacroiliac joints / MRI spine HLA-B27, CRP, ESR Cisplatin + Gemcitabine As protocol Every 3 weeks IV Intravesical BCG for superficial tumors "
+Testicular Torsion,"Chest X-ray / Echocardiogram (if cardio involvement) ANA, anti-dsDNA, Complement levels Surgical detorsion  Emergency  Immediate intervention needed "
+Epididymitis,"CT Enterography / MRI Enterography Fecal calprotectin, CRP, Colonoscopy biopsy Ciprofloxacin 500 mg Every 12 hours 10�14 days Oral Supportive scrotal elevation "
+Benign Prostatic Hyperplasia (BPH),"Colonoscopy / CT Abdomen Stool studies, Colon biopsy (histology) Tamsulosin 0.4 mg + Finasteride 5 mg Once daily Long-term Oral Relieves obstruction symptoms "
+Prostatitis,"CT Abdomen & Pelvis CBC, CRP, Stool culture if infection suspected Ciprofloxacin 500 mg Every 12 hours 4�6 weeks Oral NSAIDs for pain "
+Barrett's Esophagus,"CT Angiography Abdomen Lactate, CBC, Blood cultures Omeprazole 20 mg Once daily Long-term Oral PPI therapy; surveillance endoscopy "
+Achalasia,"Abdominal X-ray / CT Abdomen Electrolytes, CBC Nifedipine 10 mg Before meals As needed Oral Botulinum toxin or dilation if severe "
+Hepatocellular Carcinoma (HCC),Chest X-ray Viral PCR (nasopharyngeal swab) Sorafenib 400 mg Two times daily Long-term Oral Targeted therapy
+Primary Sclerosing Cholangitis (PSC),Chest X-ray Nasopharyngeal PCR / Culture Ursodeoxycholic acid 15 mg/kg/day Once daily Long-term Oral Monitor LFTs
+Gilbert's Syndrome,Chest X-ray RSV antigen/PCR No specific drug    Benign condition; reassurance
+Lactose Intolerance,"Lateral Neck X-ray / Video laryngoscopy Throat swab culture, CBC Lactase enzyme tablets With dairy intake As needed Oral Use lactose-free diet "
+Melanoma,"Echocardiogram CBC, CRP, ESR Interferon alpha + Surgery As protocol Variable IV Immunotherapy adjuvant "
+Basal Cell Carcinoma,"Echocardiogram ASO titre, Anti-DNase B, CBC Surgical excision + Imiquimod 5% Topical daily 4�6 weeks Topical Local treatment "
+Squamous Cell Carcinoma (Skin),"Echocardiogram (TTE/TEE) Blood cultures, CBC, ESR Surgical excision + 5-FU cream Topical daily 4 weeks Topical/Procedure Sun protection advised "
+Alopecia Areata,"Echocardiogram / Cardiac MRI BNP, Troponin, Viral serologies Minoxidil 5 % solution Apply twice daily Long-term Topical Topical corticosteroids if severe "
+Vitiligo,"Echocardiogram / Cardiac MRI Genetic testing, BNP Topical corticosteroids + Tacrolimus Apply twice daily Variable Topical Phototherapy may help "
+Urticaria (Chronic),"CT Angiography Chest D-dimer, Cardiac enzymes Cetirizine 10 mg Once daily As needed Oral Add Montelukast if refractory "
+Hemophilia,"Doppler Ultrasound / CT Angiography Lipid profile, HbA1c Factor VIII or IX concentrate Per weight As bleeding occurs IV Avoid NSAIDs "
+Polycythemia Vera,"Angiography of limbs ESR, CRP, Autoimmune screen Hydroxyurea 500 mg Once daily Long-term Oral Periodic phlebotomy "
+Immune Thrombocytopenic Purpura (ITP),"Ultrasound (to rule out abscess) / X-ray if bone involvement suspected Wound swab/blood culture, CBC Prednisolone 1 mg/kg Once daily 2�4 weeks Oral IVIG for refractory cases "
+COVID-19 (SARS-CoV-2),"No routine imaging / Ultrasound if abscess suspected CBC, CRP, Wound culture Supportive care + Oxygen + Remdesivir (if indicated) As prescribed Variable IV/Oral Monitor vitals; ICU care for severe cases "
+Typhoid Fever,"No routine imaging / Throat exam Throat swab culture, Rapid strep test Ceftriaxone 2 g Every 24 hours 10�14 days IV/Oral Alternative � Azithromycin "
+Shigellosis,"No routine imaging Throat swab culture, Rapid antigen test Ciprofloxacin 500 mg Every 12 hours 5 days Oral Hydration essential "
+Campylobacter Infection,Tympanometry / CT Temporal bone Ear discharge culture Azithromycin 500 mg Once daily 3 days Oral Supportive fluids
+Norovirus Infection,"CT Temporal Bone Ear discharge culture, CBC ORS + Supportive  As needed Short-term Oral No antiviral; maintain hydration"
+Tetanus,Panoramic X-ray / MRI TMJ No routine pathology (clinical diagnosis) Tetanus Immunoglobulin + Metronidazole As protocol 10�14 days IM/IV Add Diazepam for spasms
+Diphtheria,"Nerve conduction studies / Ultrasound Thyroid function, Diabetes screen Erythromycin 500 mg + Antitoxin Every 6 hours 14 days Oral/IV Isolate patient "
+Preeclampsia,Shoulder MRI / Ultrasound No routine pathology (clinical/orthopedic) Labetalol 100 mg + Magnesium sulfate As prescribed Until delivery IV/Oral Monitor BP & reflexes
+Placenta Previa,Knee MRI No routine pathology No drug � bed rest   Supportive Emergency C-section if bleeding
+Ovarian Torsion,Knee MRI No routine pathology Surgical detorsion  Emergency  Immediate surgical management
+Mastitis (Lactational),Spine X-ray No routine pathology; genetic testing if syndromic Dicloxacillin 500 mg Every 6 hours 7�10 days Oral Continue breastfeeding
+Sarcoidosis,"MRI Brain (if atypical) Lyme serology, Blood glucose Prednisolone 40 mg Once daily 6�12 weeks Oral Taper based on response "
+Amyloidosis,MRI Brain No routine pathology Melphalan + Prednisolone As prescribed Long-term Oral Supportive for organ failure
+Porphyria,"MRI Spine / CT Spine CBC, Coagulation profile Hemin 3 mg/kg/day Daily 4 days IV Avoid precipitating drugs "
+Wilson's Disease,MRI Brain and Cervical spine No routine pathology Penicillamine 250 mg Four times daily Long-term Oral Zinc supplementation adjunct
+Hemochromatosis,CT/MRI Brain CSF analysis if infection suspected Phlebotomy + Deferasirox 500 mg Every 1�2 weeks Long-term Oral/Procedure Monitor ferritin
+Gaucher Disease,"CT Brain Coagulation profile, CBC Imiglucerase 60 U/kg Every 2 weeks Long-term IV Enzyme replacement therapy "
+Fabry Disease,"CT Brain, CT Angiography Lumbar puncture (xanthochromia) Agalsidase beta 1 mg/kg Every 2 weeks Long-term IV Enzyme replacement therapy "
+MELAS (mitochondrial disorder),"MRI Brain / Carotid Doppler ECG, Lipid profile, Blood sugar Coenzyme Q10 + L-arginine As prescribed Long-term Oral Supportive therapy "
+Cushing's Syndrome,CT Angiography / MR Angiography No routine pathology; blood tests for risk factors Ketoconazole 200 mg Two times daily Variable Oral Adrenalectomy if tumor
+Addison's Disease,"Renal Ultrasound Urine protein, Serum albumin, 24-hour urine protein Hydrocortisone 20 mg AM + 10 mg PM Daily Long-term Oral Add fludrocortisone 0.1 mg "
+Hyperparathyroidism,"Renal Ultrasound Urine microscopy, Serum BUN/Creatinine Cinacalcet 30 mg Once daily Long-term Oral Parathyroidectomy if adenoma "
+Hypoparathyroidism,"Renal Ultrasound / CT Abdomen Urine culture, CBC Calcium carbonate + Calcitriol 500 mg/0.25 �g Daily Long-term Oral Monitor calcium"
+Acromegaly,"Renal Ultrasound Urine analysis, Serum creatinine Octreotide 100 �g Three times daily Long-term SC Surgical resection of pituitary adenoma "
+Gigantism,"Renal Ultrasound / CT Abdomen Genetic testing, Renal function tests Somatostatin analogs + Surgery  Long-term SC Control GH levels "
+Cretinism,"CT Abdomen with contrast Urine cytology, Biopsy (if indicated) Levothyroxine 10�15 �g/kg/day Once daily Lifelong Oral Early diagnosis vital "
+Phenylketonuria,"CT Urography / Cystoscopy Urine cytology, Biopsy Low-phenylalanine diet  Lifelong Dietary Monitor phenylalanine levels "
+Maple Syrup Urine Disease,Scrotal Doppler Ultrasound No routine pathology (surgical) Thiamine 10 mg/day + Diet restriction Once daily Lifelong Oral Dietary management critical
+Albinism,"Scrotal Ultrasound Urine culture, STI screening No drug � sun protection  Lifelong Topical/Behavioral Regular skin exams "
+Hemophilia B,"Transrectal Ultrasound PSA, Urine analysis Factor IX concentrate Per bleeding severity As needed IV Prophylactic infusions for severe cases "
+Von Willebrand Disease,Transrectal Ultrasound (if abscess suspected) Prostatic secretion/urine culture Desmopressin 0.3 �g/kg Before procedures Single dose IV/IN Increases vWF levels
+Disseminated Intravascular Coagulation (DIC),Endoscopy (EGD) with Biopsy Histopathology of biopsy Heparin + FFP + Platelets As indicated Until control IV Treat underlying cause
+Aplastic Anemia,Barium swallow / Esophageal manometry No routine pathology; biopsy if suspicious Antithymocyte globulin + Cyclosporine As protocol Long-term IV/Oral Bone marrow transplant definitive
+Iron Deficiency Anemia,"Triphasic CT Abdomen / MRI Liver AFP level, Liver biopsy (if needed) Ferrous sulfate 325 mg Three times daily 3 months Oral Take with vitamin C "
+Megaloblastic Anemia,"MRCP / ERCP Cholestatic LFTs, Autoimmune markers Vitamin B12 + Folic acid 1000 �g + 5 mg Daily 1�3 months IM/Oral Identify cause"
+Thrombocytosis,"No routine imaging Bilirubin levels, Genetic testing (rarely needed) Hydroxyurea 500 mg Once daily Long-term Oral Monitor platelet count "
+Multiple Myeloma,Hydrogen breath test No routine pathology Bortezomib + Dexamethasone + Lenalidomide As cycle Every 3 weeks IV/Oral Combination chemotherapy
+Lymphangitis,Dermatoscopy / PET-CT for staging Skin biopsy (histopathology) Amoxicillin-Clavulanate 875/125 mg Every 12 hours 10 days Oral Mark skin spread for monitoring
+Toxoplasmosis,Dermatoscopy / Excisional biopsy Histopathology Pyrimethamine + Sulfadiazine + Folinic acid As protocol 6 weeks Oral/IV For immunocompromised patients
+Cytomegalovirus Infection (CMV),Dermatoscopy / Biopsy Histopathology Ganciclovir 5 mg/kg Every 12 hours 14�21 days IV Monitor neutropenia
+Epstein-Barr Virus (EBV) Infection,"No routine imaging ANA if autoimmune suspected, Scalp biopsy occasionally Supportive + Hydration  7�10 days Supportive Avoid ampicillin rash "
+HIV/AIDS,"No routine imaging Clinical diagnosis, Autoimmune screen if indicated Tenofovir + Emtricitabine + Efavirenz 300/200/600 mg Once daily Long-term Oral Standard ART regimen"
+Gonorrhea,"No routine imaging CBC, ESR, Thyroid function tests, Allergy testing Ceftriaxone 500 mg IM + Azithromycin 1 g Single dose One-time IM/Oral For dual infection coverage "
+Chlamydia Infection,"No routine imaging Coagulation profile, Factor assays (VIII or IX) Azithromycin 1 g Single dose One-time Oral Alternative � Doxycycline 100 mg � 7 days "
+Trichomoniasis,"Chest X-ray (if needed) JAK2 mutation, CBC Metronidazole 2 g Single dose One-time Oral Treat sexual partners "
+Candidiasis,"No routine imaging Platelet count, Peripheral smear, Antiplatelet antibodies Fluconazole 150 mg Single dose One-time Oral Topical clotrimazole for mild cases "
+Tinea (Ringworm),"Chest X-ray / HRCT Chest PCR (nasopharyngeal swab), Antigen test Terbinafine 250 mg Once daily 2�4 weeks Oral/Topical Antifungal cream adjunct "
+Scabies,"Abdominal Ultrasound (complications) Blood culture, Widal (limited) Permethrin 5 % cream Apply once and repeat in 7 days 2 applications Topical Treat all close contacts "
+Pediculosis (Lice Infestation),No routine imaging Stool culture Permethrin 1 % lotion Apply once and repeat in 7 days 2 applications Topical Comb out nits
+Mumps,"No routine imaging Stool culture, PCR Supportive + Analgesics  As needed 7�10 days Oral/Supportive Avoid acidic foods"
+Measles,"No routine imaging Stool PCR Vitamin A + Supportive care 200,000 IU Once daily 2 days Oral Hydration & fever control"
+Rubella,"No routine imaging Clinical diagnosis, Wound culture (supportive) Supportive + Antipyretics  As needed 5�7 days Oral Symptomatic relief"
+Chickenpox (Varicella),"Neck X-ray (soft tissue) if airway compromise Throat swab culture, Elek test/PCR Acyclovir 800 mg Five times daily 5�7 days Oral Early use reduces severity "
+Smallpox,"Obstetric Ultrasound, Doppler Urine protein, LFTs, Platelet count Vaccinia vaccine + Tecovirimat 600 mg Two times daily 14 days Oral Post-exposure prophylaxis"
+Monkeypox,"Obstetric Ultrasound Clinical + Blood group, Hb Tecovirimat 600 mg Two times daily 14 days Oral Supportive care for lesions "
+Zika Virus Infection,Transvaginal Ultrasound with Doppler No routine pathology (surgical) Supportive + Fluids  As needed 7�10 days Oral Monitor for pregnancy complications
+Dengue Fever,Breast Ultrasound Milk culture if abscess suspected Paracetamol + IV fluids  As needed 5�7 days Oral/IV Avoid NSAIDs
+Chikungunya,"Chest X-ray / HRCT Chest ACE level, Tissue biopsy (non-caseating granulomas) Paracetamol + Fluids  As needed 7�10 days Oral Symptomatic treatment"
+Yellow Fever,Echocardiogram / MRI (if cardiac involvement) Tissue biopsy with Congo red staining Supportive + Vaccination  As needed  Preventive Vaccination key for prevention
+Ebola Virus Disease,"No routine imaging Porphyrin levels (urine, blood) Supportive + Monoclonal antibodies As protocol Variable IV Strict isolation "
+Marburg Virus Disease,"MRI Brain (if neuro involvement) Serum ceruloplasmin, 24-hr urinary copper, Liver biopsy Supportive + IV fluids  As needed Variable IV High fatality; experimental therapy"
+Hantavirus Infection,"Liver MRI / Fibroscan Serum ferritin, Transferrin saturation, Genetic testing Supportive + Ribavirin 500 mg Every 8 hours 5�10 days IV Fluid management critical"
+Plague (Yersinia pestis),"Bone scan / MRI (bone involvement) Glucocerebrosidase activity, Genetic testing Streptomycin 1 g Every 12 hours 10 days IM Alternative � Doxycycline "
+Tularemia,"Cardiac MRI / Renal ultrasound Alpha-galactosidase A activity, Genetic testing Streptomycin 1 g Every 12 hours 10�14 days IM Alternative � Gentamicin "
+Listeriosis,"MRI Brain Lactate, Genetic testing, Muscle biopsy Amoxicillin + Gentamicin As protocol 14�21 days IV For pregnant or immunocompromised "
+Cryptococcosis,"MRI Pituitary / CT Adrenals Serum Cortisol, Dexamethasone suppression test Amphotericin B + Flucytosine As protocol 6�10 weeks IV/Oral Common in HIV patients "
+Histoplasmosis,"CT Adrenal Glands Serum Cortisol, ACTH level Itraconazole 200 mg Two times daily 6�12 months Oral Severe � Amphotericin B "
+Coccidioidomycosis,"Neck Ultrasound / Sestamibi Scan Serum Calcium, PTH level Fluconazole 400 mg Once daily 6�12 months Oral For disseminated disease "
+Blastomycosis,"No routine imaging Serum Calcium, PTH level Itraconazole 200 mg Two times daily 6 months Oral Amphotericin B for severe cases "
+Pneumothorax,"MRI Pituitary GH, IGF-1, Glucose suppression test Oxygen + Chest tube drainage  As needed Until resolved Procedure No specific drug"
+Lung Abscess,"MRI Pituitary GH, IGF-1 Clindamycin 600 mg Every 8 hours 4�6 weeks Oral/IV Drainage may be required "
+Silicosis,"Thyroid Ultrasound TSH, T4 Supportive + Bronchodilators  As needed Chronic Inhaled/Supportive Avoid dust exposure"
+Asbestosis,"No imaging Newborn screening, Phenylalanine level Supportive + Oxygen  As needed Chronic Inhaled Monitor for malignancy"
+Pulmonary Fibrosis,"No imaging Plasma amino acids, Urine organic acids Pirfenidone 2403 mg/day Divided doses Long-term Oral Slow disease progression "
+Pleural Effusion,Ophthalmic exam Genetic testing Diuretics + Antibiotics (if infection) As indicated Variable Depends on cause Drain if large
+Empyema,"No imaging Factor IX assay, Coagulation profile IV antibiotics + Drainage As indicated 2�4 weeks IV/Procedure Thoracostomy drainage "
+Laryngeal Cancer,"No imaging vWF antigen, Ristocetin cofactor assay Cisplatin + Radiation As protocol 6 weeks IV May require surgery "
+Esophageal Cancer,"No imaging PT, aPTT, D-dimer, Platelet count Cisplatin + 5-FU As protocol Every 3 weeks IV Combination chemoradiation "
+Gastric Cancer,"No imaging Bone marrow biopsy, CBC Capecitabine + Cisplatin As protocol 6 cycles IV/Oral Per oncology protocol "
+Pancreatic Cancer,"No imaging Serum ferritin, Iron studies Gemcitabine 1000 mg/m� Weekly 3 weeks on / 1 week off IV Targeted therapy adjunct "
+Hepatocellular Carcinoma,"No imaging Vitamin B12, Folate level Sorafenib 400 mg Two times daily Long-term Oral Targeted therapy "
+Kidney Cancer (Renal Cell Carcinoma),"No imaging CBC, JAK2 mutation Sunitinib 50 mg Once daily 4 weeks on / 2 weeks off Oral Targeted therapy "
+Ovarian Cancer,"Skeletal Survey / MRI Spine Serum Protein Electrophoresis, Bone marrow biopsy Paclitaxel + Carboplatin As protocol Every 3 weeks IV Combination chemotherapy "
+Endometrial Cancer,"Ultrasound of limb CBC, Blood culture Cisplatin + Doxorubicin As protocol Every 3 weeks IV Adjuvant therapy "
+Testicular Cancer,"CT/MRI Brain (if CNS involvement) Toxoplasma IgG/IgM BEP regimen (Bleomycin, Etoposide, Cisplatin) As protocol 3 cycles IV Highly curable "
+Thyroid Cancer,"CT Brain (neonates) CMV IgM, PCR Levothyroxine + Radioiodine  Daily Long-term Oral Suppress TSH post-surgery"
+Pituitary Adenoma,"Neck Ultrasound (lymphadenopathy) Monospot test, EBV serology Cabergoline 0.5 mg Two times weekly Long-term Oral Dopamine agonist "
+Adrenal Tumor,"Chest X-ray / CT (if opportunistic infections) HIV ELISA, CD4 Count, Viral load Mitotane 2 g/day Divided doses Long-term Oral Adrenalectomy if localized "
+Spinal Tumor,"No imaging Gram stain, NAAT (PCR) Corticosteroids + Surgery  As needed Variable IV/Oral Depends on tumor type"
+Bone Tumor,"No imaging NAAT (PCR), Urine culture Methotrexate + Doxorubicin + Cisplatin As protocol 6 cycles IV Common osteosarcoma regimen "
+Myelodysplastic Syndrome,"No imaging Wet mount, Culture Azacitidine 75 mg/m� Daily �7 days Every 4 weeks SC/IV Improves survival "
+Wilson�s Disease,"No imaging KOH preparation, Culture Penicillamine 250 mg Four times daily Long-term Oral Copper chelation "
+Systemic Lupus Erythematosus,"No imaging KOH mount, Fungal culture Hydroxychloroquine 200 mg + Prednisolone Daily Long-term Oral Monitor eyes and kidney "
+Dermatomyositis,No imaging Skin scraping microscopy Prednisolone 1 mg/kg Once daily 6�8 weeks Oral Add methotrexate if resistant
+Polymyositis,No imaging Visual inspection / Microscopy Prednisolone 1 mg/kg Once daily 6�8 weeks Oral Add azathioprine
+Temporal Arteritis,"Ultrasound of Parotid gland Serum Amylase, Mumps IgM Prednisolone 60 mg Once daily 3�6 months Oral Prevent vision loss "
+Takayasu Arteritis,Chest X-ray (if pneumonia) Measles IgM Antibody Prednisolone + Methotrexate As prescribed Long-term Oral Monitor vascular inflammation
+Buerger�s Disease,No imaging Rubella IgM Antibody Smoking cessation + Vasodilators  As needed Chronic Oral/Supportive Absolute smoking avoidance
+Deep Vein Thrombosis,No imaging Varicella IgM / PCR Enoxaparin 1 mg/kg Every 12 hours 3 months SC/Oral Switch to warfarin/apixaban
+Atherosclerosis,No imaging PCR for Variola virus Atorvastatin 40 mg Once daily Long-term Oral Lifestyle modification
+Heart Failure,No imaging PCR from lesion fluid Furosemide + ACE inhibitor + Carvedilol As prescribed Daily Oral Add spironolactone if needed
+Arrhythmia,Obstetric Ultrasound (fetal anomalies) Zika PCR / IgM Amiodarone 200 mg Once daily Variable Oral/IV Monitor ECG and thyroid
+Myocarditis,"Chest X-ray (if pleural effusion) NS1 Antigen, IgM/IgG ACE inhibitors + Beta-blockers As prescribed Variable Oral/IV Supportive treatment "
+Stroke (CVA),"No imaging IgM ELISA, PCR Aspirin 150 mg + Clopidogrel 75 mg Once daily Long-term Oral Rehabilitation crucial "
+Parkinson�s Disease,"No imaging Yellow fever IgM, PCR Levodopa + Carbidopa As prescribed 3�4 times daily Long-term Oral Add dopamine agonist"
+Alzheimer�s Disease,"No imaging PCR, Antigen test Donepezil 10 mg Once daily Long-term Oral Cognitive therapy adjunct "
+Dementia (Non-Alzheimer�s),"No imaging PCR, Antigen test Memantine 10 mg Two times daily Long-term Oral Supportive care "
+Cerebral Palsy,"Chest X-ray / CT Serology (IgM, IgG), PCR Baclofen + Physiotherapy As prescribed Variable Oral/Injection Spasticity control "
+Cluster Headache,"Chest X-ray (if pneumonic) Culture, PCR Oxygen therapy + Sumatriptan 6 mg Single dose As needed Inhalation/SC Short duration attacks "
+Bell�s Palsy,"Chest X-ray Culture, Serology Prednisolone 60 mg Once daily 7�10 days Oral Add acyclovir if viral "
+Optic Neuritis,"MRI Brain (if meningitis) Blood culture, CSF analysis Methylprednisolone 1 g/day For 3 days Short course IV May indicate MS "
+Glomerulonephritis,"Chest X-ray / Brain MRI CSF India Ink, Cryptococcal antigen test Prednisolone + ACE inhibitor As prescribed Long-term Oral/IV Monitor renal function "
+Acute Kidney Injury,"Chest X-ray Fungal culture, Urine antigen IV fluids + Stop nephrotoxins  As needed Variable IV/Supportive Supportive management"
+Renal Calculi,"Chest X-ray Serology (IgM, IgG) Tamsulosin 0.4 mg + Hydration Once daily Until passage Oral Pain relief with NSAIDs "
+UTI (Urinary Tract Infection),"Chest X-ray Culture, Histopathology Nitrofurantoin 100 mg Two times daily 7 days Oral Hydration essential "
+Pyelonephritis,"Chest X-ray / CT Thorax ABG, Pulse oximetry Ceftriaxone 1 g Every 12 hours 10�14 days IV/Oral Severe infection needs hospitalization "
+Benign Prostatic Hyperplasia,"CT Chest Sputum culture, Blood culture Tamsulosin 0.4 mg + Finasteride 5 mg Once daily Long-term Oral Relieves obstruction "
+Urethritis,"Chest X-ray No specific test, BAL cytology Azithromycin 1 g + Ceftriaxone 500 mg Single dose One-time Oral/IM For gonococcal & chlamydial coverage "
+Pelvic Inflammatory Disease,"Chest X-ray / HRCT No specific test, Pulmonary function test Ceftriaxone + Doxycycline + Metronidazole As protocol 14 days IV/Oral Broad coverage "
+Amenorrhea,"HRCT Chest ANA, Rheumatoid factor Clomiphene citrate 50 mg Once daily 5 days Oral Investigate cause "
+Menorrhagia,Chest X-ray / Ultrasound Pleural fluid analysis Tranexamic acid 1 g Three times daily 5 days Oral NSAIDs for pain
+Infertility (Male),Chest X-ray / CT Pleural fluid culture Clomiphene + Antioxidants As prescribed Variable Oral Hormonal evaluation required
+Obstructive Jaundice,"Laryngoscopy, CT Neck Biopsy, Histopathology ERCP + Ursodeoxycholic acid  As needed Procedure/Oral Depends on cause "
+Acute Pancreatitis,"Barium swallow / Endoscopy Biopsy, Histopathology IV fluids + Analgesics  As needed Hospital No specific drug "
+Chronic Pancreatitis,"Endoscopy, CT Abdomen Biopsy, CEA test Pancreatic enzyme supplements With meals Long-term Oral Abstinence from alcohol "
+Inflammatory Bowel Disease,"CT Abdomen, MRI CA 19-9, Biopsy Mesalamine 800 mg + Prednisolone As prescribed Variable Oral/Rectal Maintenance therapy "
+Irritable Bowel Syndrome,"Ultrasound / CT / MRI Liver AFP, LFTs Dicyclomine 20 mg Before meals As needed Oral Dietary management "
+,
+,
+,
+,
+,
+,
