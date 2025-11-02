@@ -17,6 +17,10 @@ pip install "en-core-med7-lg @ https://huggingface.co/kormilitzin/en_core_med7_l
 
 pip install --upgrade h5py
 
+pip install scikit-learn
+
+pip install joblib
+
 ## Ngrok Authentication Key
 
 Run the following command in the terminal to save your Ngrok AuthToken configuration:
