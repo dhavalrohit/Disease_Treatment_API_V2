@@ -44,16 +44,19 @@ URL:
 https://robustiously-untraveled-anahi.ngrok-free.dev/extract
 
 Body (raw JSON):
+```
 {
   "disease_name": "actual_disease_name"
 }
-
+```
 Example:
+```
 {
   "disease_name": "Dengue"
 }
-
+```
 Example Response:
+```
 {
   "disease_name": "dengue",
   "medications": [
@@ -72,7 +75,7 @@ Example Response:
     "Ultrasound Abdomen"
   ]
 }
-
+```
 ###  GET /extract_get
 
 URL Format:
@@ -82,6 +85,7 @@ Example:
 https://robustiously-untraveled-anahi.ngrok-free.dev/extract_get?disease_name=high fever
 
 Example Response:
+```
 {
   "disease_name": "high fever",
   "medications": [
@@ -99,7 +103,7 @@ Example Response:
     "Chest X-Ray"
   ]
 }
-
+```
 ### POST /submit_feedback
 
 URL:  
