@@ -7,25 +7,35 @@ This API extracts medications, pathology tests, and radiology tests for a given 
 1. Python Version: 3.10.0
 2. Open the terminal and run the following commands:
 
+```
 pip install flask pyngrok pandas flask-ngrok 
-
+```
+```
 pip install spacy==3.8.7 numpy==2.2.6
-
+```
+```
 pip install "en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85"
-
+```
+```
 pip install "en-core-med7-lg @ https://huggingface.co/kormilitzin/en_core_med7_lg/resolve/main/en_core_med7_lg-any-py3-none-any.whl"
-
+```
+```
 pip install --upgrade h5py
-
+```
+```
 pip install scikit-learn
-
+```
+```
 pip install joblib
+```
 
 ## Ngrok Authentication Key
 
 Run the following command in the terminal to save your Ngrok AuthToken configuration:
 
+```
 ngrok authtoken 3406Re0LzMooLpJNKCl4fEUgXg5_4xtS28FCsAr4GB7zvkUn6
+```
 
 ## Running the Application
 
