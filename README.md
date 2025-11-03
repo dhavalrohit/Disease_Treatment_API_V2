@@ -100,6 +100,62 @@ Example Response:
   ]
 }
 
+### POST /submit_feedback
+
+URL:  
+https://robustiously-untraveled-anahi.ngrok-free.dev/submit_feedback
+
+Description:  
+Used by doctors or users to provide **feedback** on the suggested medications, pathology tests, and radiology tests.  
+This feedback is stored and used to **improve future predictions** via model retraining.
+
+#### Body (raw JSON) Example input:
+
+```json
+{
+  "disease_name": "dengue",
+  "suggested": {
+    "suggested_medications": [
+      {
+        "dosage": "one tablet",
+        "drug": "Paracetamol",
+        "duration": "for 5 days",
+        "strength": "500 mg"
+      }
+    ],
+    "suggested_pathology_test": [
+      "Platelet Count",
+      "Dengue NS1 Antigen"
+    ],
+    "suggested_radiology_test": [
+      "Ultrasound Abdomen"
+    ]
+  },
+  "final": {
+    "medications": [
+      {
+        "dosage": "one tablet",
+        "drug": "Paracetamol",
+        "duration": "for 5 days",
+        "strength": "500 mg"
+      }
+    ],
+    "pathology_tests": [
+      "Platelet Count"
+    ],
+    "radiology_tests": [
+      "Ultrasound Abdomen"
+    ]
+  }
+}
+```
+Example Response:
+```
+{
+  "message": "Feedback submitted and models updated successfully!"
+}
+```
+
 ## Troubleshooting
 
 If you encounter the following error:
