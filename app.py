@@ -16,21 +16,35 @@ import numpy as np
 from sklearn.multiclass import OneVsRestClassifier
 
 # === SETUP DIRECTORIES AND FILE PATHS ===
-os.makedirs("model", exist_ok=True)
-os.makedirs("csv_files", exist_ok=True)
+#os.makedirs("model", exist_ok=True)  used for windows
+#os.makedirs("csv_files", exist_ok=True) used fo windows
 
-MODEL_PATH_MED = "model/treatment_model_med.pkl"
-MLB_PATH_MED = "model/label_binarizer_med.pkl"
+#used for windows
+#MODEL_PATH_MED = "model/treatment_model_med.pkl"
+#MLB_PATH_MED = "model/label_binarizer_med.pkl"
+#used for windows
+#MODEL_PATH_PATHO = "model/treatment_model_path.pkl"
+#MLB_PATH_PATHO = "model/label_binarizer_path.pkl"
+#used for windows
+#MODEL_PATH_RADIO = "model/treatment_model_radio.pkl"
+#MLB_PATH_RADIO = "model/label_binarizer_radio.pkl"
+#used for windows
+#VECTORIZER_PATH = "model/vectorizer.pkl"
+#TRAINING_CSV = "csv_files/training_data.csv"
+#FREQ_CSV = "csv_files/label_frequencies.csv"   # NEW: frequency counters
 
-MODEL_PATH_PATHO = "model/treatment_model_path.pkl"
-MLB_PATH_PATHO = "model/label_binarizer_path.pkl"
+#used for linux
+MODEL_PATH_MED = os.path.join(MODEL_DIR, "treatment_model_med.pkl")
+MLB_PATH_MED = os.path.join(MODEL_DIR, "label_binarizer_med.pkl")
+#used for linux
+MODEL_PATH_PATHO = os.path.join(MODEL_DIR, "treatment_model_path.pkl")
+MLB_PATH_PATHO = os.path.join(MODEL_DIR, "label_binarizer_path.pkl")
+#used for linux
+MODEL_PATH_RADIO = os.path.join(MODEL_DIR, "treatment_model_radio.pkl")
+MLB_PATH_RADIO = os.path.join(MODEL_DIR, "label_binarizer_radio.pkl")
+#used for linux
+VECTORIZER_PATH = os.path.join(MODEL_DIR, "vectorizer.pkl")
 
-MODEL_PATH_RADIO = "model/treatment_model_radio.pkl"
-MLB_PATH_RADIO = "model/label_binarizer_radio.pkl"
-
-VECTORIZER_PATH = "model/vectorizer.pkl"
-TRAINING_CSV = "csv_files/training_data.csv"
-FREQ_CSV = "csv_files/label_frequencies.csv"   # NEW: frequency counters
 
 # === LOAD OR INITIALIZE ML MODELS ===
 def load_or_create_model(model_path, mlb_path):
