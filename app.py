@@ -536,11 +536,18 @@ def view_frequencies():
     return jsonify([])
 
 
-# === NGROK TUNNEL FOR TESTING ===
-def start_ngrok():
-    url = ngrok.connect(5000)
-    print(f" Ngrok tunnel started: {url}")
-
 if __name__ == "__main__":
-    start_ngrok()
-    app.run(port=5000)
+    # For local debugging only — NOT used in production
+    app.run(host="0.0.0.0", port=5000)
+
+
+#Used for Local Testing
+# === NGROK TUNNEL FOR TESTING ===
+#def start_ngrok():
+   #url = ngrok.connect(5000)
+    #print(f" Ngrok tunnel started: {url}")
+
+#Used for Local Testing
+#if __name__ == "__main__":
+    #start_ngrok()
+    #app.run(port=5000)
