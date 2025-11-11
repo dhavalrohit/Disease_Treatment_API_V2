@@ -506,7 +506,7 @@ def is_model_valid():
         #"model/treatment_model_path.pkl",
         MODEL_PATH_PATHO,
         #"model/treatment_model_radio.pkl",
-        MODEL_PATH_RADIO
+        MODEL_PATH_RADIO,
         #"model/vectorizer.pkl"
         VECTORIZER_PATH
     ]
