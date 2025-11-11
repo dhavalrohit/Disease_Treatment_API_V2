@@ -16,34 +16,54 @@ import numpy as np
 from sklearn.multiclass import OneVsRestClassifier
 
 # === SETUP DIRECTORIES AND FILE PATHS ===
-#os.makedirs("model", exist_ok=True)  used for windows
-#os.makedirs("csv_files", exist_ok=True) used fo windows
+#USED FOR WINDOWS
+#os.makedirs("model", exist_ok=True)
+#os.makedirs("csv_files", exist_ok=True)
 
-#used for windows
+#ADDED FOR LINUX
+# Base directories for Linux/Windows compatibility
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, "model")
+CSV_DIR = os.path.join(BASE_DIR, "csv_files")
+#ADDED FOR LINUX
+# Ensure directories exist
+os.makedirs(MODEL_DIR, exist_ok=True)
+os.makedirs(CSV_DIR, exist_ok=True)
+
+#USED FOR WINDOWS
 #MODEL_PATH_MED = "model/treatment_model_med.pkl"
 #MLB_PATH_MED = "model/label_binarizer_med.pkl"
-#used for windows
+#USED FOR WINDOWS
 #MODEL_PATH_PATHO = "model/treatment_model_path.pkl"
 #MLB_PATH_PATHO = "model/label_binarizer_path.pkl"
-#used for windows
+#USED FOR WINDOWS
 #MODEL_PATH_RADIO = "model/treatment_model_radio.pkl"
 #MLB_PATH_RADIO = "model/label_binarizer_radio.pkl"
-#used for windows
+#USED FOR WINDOWS
 #VECTORIZER_PATH = "model/vectorizer.pkl"
+
+#ADDED FOR LINUX
+MODEL_PATH_MED = os.path.join(MODEL_DIR, "treatment_model_med.pkl")
+MLB_PATH_MED = os.path.join(MODEL_DIR, "label_binarizer_med.pkl")
+#ADDED FOR LINUX
+MODEL_PATH_PATHO = os.path.join(MODEL_DIR, "treatment_model_path.pkl")
+MLB_PATH_PATHO = os.path.join(MODEL_DIR, "label_binarizer_path.pkl")
+#ADDED FOR LINUX
+MODEL_PATH_RADIO = os.path.join(MODEL_DIR, "treatment_model_radio.pkl")
+MLB_PATH_RADIO = os.path.join(MODEL_DIR, "label_binarizer_radio.pkl")
+#ADDED FOR LINUX
+VECTORIZER_PATH = os.path.join(MODEL_DIR, "vectorizer.pkl")
+
+#USED FOR WINDOWS
 #TRAINING_CSV = "csv_files/training_data.csv"
 #FREQ_CSV = "csv_files/label_frequencies.csv"   # NEW: frequency counters
 
-#used for linux
-MODEL_PATH_MED = os.path.join(MODEL_DIR, "treatment_model_med.pkl")
-MLB_PATH_MED = os.path.join(MODEL_DIR, "label_binarizer_med.pkl")
-#used for linux
-MODEL_PATH_PATHO = os.path.join(MODEL_DIR, "treatment_model_path.pkl")
-MLB_PATH_PATHO = os.path.join(MODEL_DIR, "label_binarizer_path.pkl")
-#used for linux
-MODEL_PATH_RADIO = os.path.join(MODEL_DIR, "treatment_model_radio.pkl")
-MLB_PATH_RADIO = os.path.join(MODEL_DIR, "label_binarizer_radio.pkl")
-#used for linux
-VECTORIZER_PATH = os.path.join(MODEL_DIR, "vectorizer.pkl")
+#ADDED FOR LINUX
+TRAINING_CSV = os.path.join(CSV_DIR, "training_data.csv")
+FREQ_CSV = os.path.join(CSV_DIR, "label_frequencies.csv")
+
+
+
 
 
 # === LOAD OR INITIALIZE ML MODELS ===
@@ -84,7 +104,7 @@ def load_csv_safe(path, encoding='utf-8'):
     else:
         return pd.DataFrame()
 
-df_disease = load_csv_safe("csv_files/disease_treatments_directory.csv", encoding='latin-1')
+df_disease = load_csv_safe(os.path.join(CSV_DIR, "disease_treatments_directory.csv"), encoding='latin-1')
 if not df_disease.empty:
     df_disease.columns = [c.lower().strip() for c in df_disease.columns]
 
@@ -94,7 +114,7 @@ if not os.path.exists(VECTORIZER_PATH):
     vectorizer.fit(disease_names if disease_names else ["dummy disease"])
     joblib.dump(vectorizer, VECTORIZER_PATH)
 
-df_tests = load_csv_safe("csv_files/radiology_pathology_test_terms.csv", encoding='latin-1')
+df_tests = load_csv_safe(os.path.join(CSV_DIR, "radiology_pathology_test_terms.csv"), encoding='latin-1')
 if not df_tests.empty:
     df_tests.columns = [c.lower().strip() for c in df_tests.columns]
 
@@ -479,14 +499,19 @@ def extract_info():
 
 def is_model_valid():
     """Check if models were actually trained (not just existing files)."""
+    
     model_files = [
-        "model/treatment_model_med.pkl",
-        "model/treatment_model_path.pkl",
-        "model/treatment_model_radio.pkl",
-        "model/vectorizer.pkl"
+        #"model/treatment_model_med.pkl",
+        MODEL_PATH_MED,
+        #"model/treatment_model_path.pkl",
+        MODEL_PATH_PATHO,
+        #"model/treatment_model_radio.pkl",
+        MODEL_PATH_RADIO
+        #"model/vectorizer.pkl"
+        VECTORIZER_PATH
     ]
     # If model folder missing or empty -> invalid
-    if not os.path.exists("model"):
+    if not os.path.exists(MODEL_DIR):
         return False
 
     # If any model file missing or very small (untrained)
