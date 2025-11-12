@@ -14,12 +14,17 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 import numpy as np
 from sklearn.multiclass import OneVsRestClassifier
+import logging
 
 
 # === SETUP DIRECTORIES AND FILE PATHS ===
 #USED FOR WINDOWS
 #os.makedirs("model", exist_ok=True)
 #os.makedirs("csv_files", exist_ok=True)
+
+
+
+
 
 #ADDED FOR LINUX
 # Base directories for Linux/Windows compatibility
@@ -64,6 +69,22 @@ VECTORIZER_PATH = os.path.join(MODEL_DIR, "vectorizer.pkl")
 TRAINING_CSV = os.path.join(CSV_DIR, "training_data.csv")
 FREQ_CSV = os.path.join(CSV_DIR, "label_frequencies.csv")
 
+# === SIMPLE LOGGING SETUP ===
+LOG_DIR = os.path.join(BASE_DIR, "logs")
+os.makedirs(LOG_DIR, exist_ok=True)
+LOG_FILE = os.path.join(LOG_DIR, "treatment_api.log")
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE, mode='a'),
+        logging.StreamHandler()
+    ]
+)
+
+logger = logging.getLogger(__name__)
+logger.info(" Logging initialized successfully.")
 
 
 
@@ -73,13 +94,15 @@ def load_or_create_model(model_path, mlb_path):
     try:
         model = joblib.load(model_path)
         mlb = joblib.load(mlb_path)
-        print(f" Loaded existing model: {model_path}")
+        #print(f" Loaded existing model: {model_path}")
+        logger.info(f"Loaded existing model: {model_path}")
     except Exception:
         # create a OneVsRest wrapper for multi-label classification
         base = SGDClassifier(loss="log_loss", max_iter=1000)
         model = OneVsRestClassifier(base)
         mlb = MultiLabelBinarizer()
-        print(f" Created new model: {model_path}")
+        #print(f" Created new model: {model_path}")
+        logger.info(f"Created new model: {model_path}")
     return model, mlb
 
 model_med, mlb_med = load_or_create_model(MODEL_PATH_MED, MLB_PATH_MED)
@@ -89,10 +112,15 @@ model_radio, mlb_radio = load_or_create_model(MODEL_PATH_RADIO, MLB_PATH_RADIO)
 # === LOAD OR CREATE VECTORIZER ===
 try:
     vectorizer = joblib.load(VECTORIZER_PATH)
-    print(" Loaded existing vectorizer.")
+    #print(" Loaded existing vectorizer.")
+    logger.info("Loaded existing vectorizer.")
+
 except:
     vectorizer = TfidfVectorizer()
-    print(" Created new TfidfVectorizer.")
+    logger.info("Created new TfidfVectorizer.")
+    #print(" Created new TfidfVectorizer.")
+
+
 
 # === LOAD REFERENCE DATA ===
 def load_csv_safe(path, encoding='utf-8'):
@@ -134,7 +162,9 @@ def expand_terms(series):
 
 pathology_terms = expand_terms(df_tests.get("pathology", []))
 radiology_terms = expand_terms(df_tests.get("radiology", []))
-print(f"Loaded {len(pathology_terms)} pathology terms and {len(radiology_terms)} radiology terms.")
+#print(f"Loaded {len(pathology_terms)} pathology terms and {len(radiology_terms)} radiology terms.")
+logger.info(f"Loaded {len(pathology_terms)} pathology terms and {len(radiology_terms)} radiology terms.")
+
 
 # === LOAD SPACY MODELS ===
 nlp_med7 = spacy.load("en_core_med7_lg")
@@ -305,10 +335,13 @@ def submit_feedback():
     global model_med, mlb_med, model_patho, mlb_patho, model_radio, mlb_radio, vectorizer
 
     data = request.get_json()
+    logger.info(f"/submit_feedback request data: {json.dumps(data)}")
     disease_name = data.get("disease_name")
     suggested = data.get("suggested", {})
     final = data.get("final", {})
     if not disease_name or suggested is None or final is None:
+        resp = {"error": "Missing disease_name, suggested, or final data"}
+        logger.info(f"/submit_feedback response data: {json.dumps(resp)}")
         return jsonify({"error": "Missing disease_name, suggested, or final data"}), 400
 
     # --- Convert meds to Option B labels ---
@@ -413,7 +446,10 @@ def submit_feedback():
 
     except Exception as e:
         print("Retrain error:", e)
+        logger.error(f"Retrain error: {str(e)}")
 
+    resp = {"message": "Feedback submitted and models updated successfully!"}
+    logger.info(f"/submit_feedback response data: {json.dumps(resp)}")
     return jsonify({"message": "Feedback submitted and models updated successfully!"})
 
 # ---------------------------------------------------------------------
@@ -422,13 +458,19 @@ def submit_feedback():
 @app.route("/extract", methods=["POST"])
 def extract_info():
     data = request.get_json()
+    logger.info(f"/extract request data: {json.dumps(data)}")
+    
     disease_name = data.get("disease_name", "").strip().lower()
     if not disease_name:
+        resp = {"error": "Please provide a disease_name"}
+        logger.info(f"/extract response data: {json.dumps(resp)}")
         return jsonify({"error": "Please provide a disease_name"}), 400
 
     #  Check if models are actually valid and trained
     use_model = is_model_valid()
-    print(f" Using {'MODEL' if use_model else 'CSV'} mode for:", disease_name)
+    #print(f" Using {'MODEL' if use_model else 'CSV'} mode for:", disease_name)
+    logger.info(f"Using {'MODEL' if use_model else 'CSV'} mode for: {disease_name}")
+
 
     suggested_medications, suggested_pathology, suggested_radiology = [], [], []
 
@@ -495,7 +537,8 @@ def extract_info():
 
         result["suggested_pathology"] = merge_with_freq(disease_name, "pathology", result["suggested_pathology"])
         result["suggested_radiology"] = merge_with_freq(disease_name, "radiology", result["suggested_radiology"])
-
+    
+    logger.info(f"/extract response data: {json.dumps(result)}")
     return jsonify(result)
 
 
