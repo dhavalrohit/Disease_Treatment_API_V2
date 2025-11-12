@@ -14,7 +14,27 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 import numpy as np
 from sklearn.multiclass import OneVsRestClassifier
+
 import logging
+
+# Ensure logs directory exists early
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_DIR = os.path.join(BASE_DIR, "logs")
+os.makedirs(LOG_DIR, exist_ok=True)
+LOG_FILE = os.path.join(LOG_DIR, "treatment_api.log")
+
+# Set up logging early, so it works even if imports fail later
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE, mode='a'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+logger.info("=== Logging initialized early ===")
+
 
 
 # === SETUP DIRECTORIES AND FILE PATHS ===
@@ -68,25 +88,6 @@ VECTORIZER_PATH = os.path.join(MODEL_DIR, "vectorizer.pkl")
 #ADDED FOR LINUX
 TRAINING_CSV = os.path.join(CSV_DIR, "training_data.csv")
 FREQ_CSV = os.path.join(CSV_DIR, "label_frequencies.csv")
-
-# === SIMPLE LOGGING SETUP ===
-LOG_DIR = os.path.join(BASE_DIR, "logs")
-os.makedirs(LOG_DIR, exist_ok=True)
-LOG_FILE = os.path.join(LOG_DIR, "treatment_api.log")
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_FILE, mode='a'),
-        logging.StreamHandler()
-    ]
-)
-
-logger = logging.getLogger(__name__)
-logger.info(" Logging initialized successfully.")
-logger.propagate = True
-
 
 
 
@@ -182,6 +183,13 @@ if radiology_terms:
 
 # === FLASK APP INIT ===
 app = Flask(__name__)
+    
+gunicorn_logger = logging.getLogger('gunicorn.error')
+if gunicorn_logger.handlers:
+    app.logger.handlers = gunicorn_logger.handlers
+    logger.handlers = gunicorn_logger.handlers
+    app.logger.setLevel(gunicorn_logger.level)
+    logger.setLevel(gunicorn_logger.level)
 
 # === HELPER FUNCTIONS ===
 def clean_text(text):
