@@ -85,6 +85,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 logger.info(" Logging initialized successfully.")
+logger.propagate = True
 
 
 
