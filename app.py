@@ -19,6 +19,28 @@ from pathlib import Path
 import time
 
 
+
+# ------------------- Logging Setup -------------------
+LOG_PATH = Path(__file__).resolve().parent / "api.log"
+
+# Set the converter to local time for consistent time zones
+logging.Formatter.converter = time.localtime
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_PATH),  # Logs to the file
+        logging.StreamHandler()         # Logs to the console (stdout/stderr)
+    ]
+)
+logger = logging.getLogger(__name__)
+
+# === FLASK APP INIT ===
+app = Flask(__name__)
+
+
+
 @app.before_request
 def log_request_info():
     """Logs details about the incoming request."""
@@ -37,23 +59,6 @@ def log_response_info(response):
     """Logs details about the outgoing response."""
     logger.info(f" Responded with {response.status} for {request.path}")
     return response
-
-# ------------------- Logging Setup -------------------
-LOG_PATH = Path(__file__).resolve().parent / "api.log"
-
-# Set the converter to local time for consistent time zones
-logging.Formatter.converter = time.localtime
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_PATH),  # Logs to the file
-        logging.StreamHandler()         # Logs to the console (stdout/stderr)
-    ]
-)
-logger = logging.getLogger(__name__)
-
 
 # === SETUP DIRECTORIES AND FILE PATHS ===
 #USED FOR WINDOWS
@@ -188,8 +193,6 @@ if pathology_terms:
 if radiology_terms:
     matcher.add("RADIOLOGY TEST", [nlp_general.make_doc(t) for t in radiology_terms])
 
-# === FLASK APP INIT ===
-app = Flask(__name__)
 
 # === HELPER FUNCTIONS ===
 def clean_text(text):
