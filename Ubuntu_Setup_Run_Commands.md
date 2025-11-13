@@ -110,7 +110,10 @@ pip install joblib
 
 ## Running the API
 ```
-gunicorn --bind 0.0.0.0:5000 app:app
+cd ~/disease_treatment
+```
+```
+gunicorn --bind 0.0.0.0:5000 app:app --log-level info --capture-output --enable-stdio-inheritance
 ```
 
 ### Command to Check if Gunicorn Process is active(API is running)
@@ -149,4 +152,33 @@ pip install numpy==2.2.6
 pip install spacy==3.8.7
 ```
 
+## Steps to Host Your API(Using tmux)
+## Note-Used Only for testing or developement 
+### login to your instance
+```
+ssh -i your_key.pem ubuntu@<your_public_ip>
+```
+### install tmux
+```
+sudo apt update && sudo apt install tmux -y
+```
+### start tmux session #tmux new -s disease_treatment_app
+```
+tmux new -s disease_treatment_app
+```
+### Run Your API
+```
+cd ~/disease_treatment
+source disease_treatment_venv/bin/activate   # if you have a virtual environment
+gunicorn --bind 0.0.0.0:5000 app:app --log-level info --capture-output --enable-stdio-inheritance
+```
+### Detach the session (keep it running in background)
+Ctrl + B, then D
 
+### Reattach anytime to view logs
+tmux attach -t disease_treatment_app
+
+### Stop the app
+Reattach (tmux attach -t disease_treatment_app)
+Press Ctrl + C to stop
+Type exit to close tmux
