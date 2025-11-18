@@ -103,6 +103,9 @@ Example Response:
       "dosage": "one tablet",
       "drug": "Paracetamol",
       "duration": "for 3 days",
+      "form": "tablet",
+       "frequency": "daily",
+       "route": "orally",
       "strength": "500 mg"
     }
   ],
@@ -134,6 +137,9 @@ This feedback is stored and used to **improve future predictions** via model ret
         "dosage": "one tablet",
         "drug": "Paracetamol",
         "duration": "for 5 days",
+         "form": "tablet",
+       "frequency": "daily",
+       "route": "orally",
         "strength": "500 mg"
       }
     ],
@@ -151,6 +157,9 @@ This feedback is stored and used to **improve future predictions** via model ret
         "dosage": "one tablet",
         "drug": "Paracetamol",
         "duration": "for 5 days",
+          "form": "tablet",
+       "frequency": "daily",
+       "route": "orally",
         "strength": "500 mg"
       }
     ],
