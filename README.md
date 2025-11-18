@@ -74,6 +74,9 @@ Example Response:
       "dosage": "one tablet",
       "drug": "Paracetamol",
       "duration": "for 5 days",
+       "form": "tablet",
+       "frequency": "daily",
+       "route": "orally",
       "strength": "500 mg"
     }
   ],
