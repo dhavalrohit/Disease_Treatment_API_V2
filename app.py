@@ -40,24 +40,35 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 
-
 @app.before_request
 def log_request_info():
-    """Logs details about the incoming request."""
-    logger.info(f" Received {request.method} request at {request.path}")
+    logger.info(f"--- Incoming {request.method} {request.path} ---")
+
+    if request.args:
+        logger.info(f"Query Params: {dict(request.args)}")
+
     if request.is_json:
-        # Log the JSON body if present
         try:
-            logger.debug(f"Request JSON: {request.get_json()}")
+            logger.info(f"Request JSON: {json.dumps(request.get_json(), ensure_ascii=False)}")
         except Exception:
-            logger.debug("Request has JSON header but body could not be parsed.")
+            logger.warning("Failed to parse request JSON.")
     else:
-        logger.debug("Request has no JSON body")
+        if request.data:
+            logger.info(f"Raw Body: {request.data.decode(errors='ignore')}")
+        else:
+            logger.info("No JSON body received.")
+
 
 @app.after_request
 def log_response_info(response):
-    """Logs details about the outgoing response."""
-    logger.info(f" Responded with {response.status} for {request.path}")
+    logger.info(f"--- Response {response.status} for {request.path} ---")
+
+    try:
+        resp_data = response.get_json()
+        logger.info(f"Response JSON: {json.dumps(resp_data, ensure_ascii=False)}")
+    except Exception:
+        logger.warning("Response is not JSON.")
+
     return response
 
 # === SETUP DIRECTORIES AND FILE PATHS ===
